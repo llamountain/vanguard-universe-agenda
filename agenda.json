@@ -1,0 +1,687 @@
+{
+  "updated": "2026-09-22",
+  "sessions": [
+    {
+      "id": "1786370222106001jLNQ",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "9:00–9:45 AM",
+      "start": "2026-10-28T09:00:00-07:00",
+      "end": "2026-10-28T09:45:00-07:00",
+      "title": "Opening Keynote",
+      "category": "Executive strategy",
+      "reason": "Align Vanguard's developers, platform teams, security specialists, and leaders around GitHub's direction for AI-assisted software delivery. Identify follow-ups on governance, platform strategy, and measurable value; distinguish available capabilities from future possibilities.",
+      "room": "Main Stage @ Festival Pavilion",
+      "format": "Keynote",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1786370222106001jLNQ",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "leadership",
+        "team"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "team": "",
+        "leadership": ""
+      }
+    },
+    {
+      "id": "1777539050990001fp0w",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "10:30–11:10 AM",
+      "start": "2026-10-28T10:30:00-07:00",
+      "end": "2026-10-28T11:10:00-07:00",
+      "title": "Agentic engineering past the pilot: An enterprise playbook",
+      "category": "Operating model",
+      "reason": "Compare operating models for moving agentic engineering beyond pilots. For Vanguard, focus on accountable ownership, consistent governance, and how platform teams can enable product teams without creating additional approval bottlenecks.",
+      "room": "Cowell Theater @ Gateway Pavilion",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777539050990001fp0w",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "leadership",
+        "team"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "team": "",
+        "leadership": ""
+      }
+    },
+    {
+      "id": "1777557576923001fNOZ",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "11:30 AM–12:10 PM",
+      "start": "2026-10-28T11:30:00-07:00",
+      "end": "2026-10-28T12:10:00-07:00",
+      "title": "How GitHub taught Copilot to remember and when to forget",
+      "category": "Agent context",
+      "reason": "For Vanguard developers and AI enablement teams: examine when accumulated context helps or harms agent performance, and how to evaluate memory and forgetting. The described Skill Forge and Copilot REM work is in development, not an assumed production capability.",
+      "room": "BATS Theatre @ Fort Mason Building B, 3rd Floor",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777557576923001fNOZ",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "team"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "team": " Tight transfer: 20 minutes, including an estimated 15-minute walk and five-minute early arrival. Allow extra time for queues."
+      }
+    },
+    {
+      "id": "1782223817329001J5Je",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "11:30 AM–12:10 PM",
+      "start": "2026-10-28T11:30:00-07:00",
+      "end": "2026-10-28T12:10:00-07:00",
+      "title": "Building AI fluency at UPS",
+      "category": "Workforce adoption",
+      "reason": "Use UPS's enterprise experience to examine how leaders turn access to AI tools into practical fluency. Consider reusable enablement, community participation, and evidence of changed delivery behavior rather than license allocation alone.",
+      "room": "Cowell Theater @ Gateway Pavilion",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1782223817329001J5Je",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "leadership"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "leadership": ""
+      }
+    },
+    {
+      "id": "1777564797850001QoD8",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "12:10–12:25 PM",
+      "start": "2026-10-28T12:10:00-07:00",
+      "end": "2026-10-28T12:25:00-07:00",
+      "title": "The Low Orbit Agentic Cannon: Scaling Copilot through internal tooling",
+      "category": "Financial services",
+      "reason": "Galaxy offers a financial-services perspective on scaling Copilot through internal tooling. Compare the platform investment, organizational leverage, and governance questions with Vanguard's own choices about reusable enablement.",
+      "room": "Ship & Tell @ Firehouse",
+      "format": "Ship & Tell",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777564797850001QoD8",
+      "earlyArrival": 20,
+      "recommendedFor": [],
+      "alternativeFor": [
+        "leadership",
+        "team"
+      ],
+      "routeNotes": {
+        "team": "Replaces the 11:30 AM and 12:30 PM recommendations in this track, including transfer time. Official guidance: arrive about 20 minutes early; seating is not guaranteed.",
+        "leadership": "Replaces the 11:30 AM recommendation in this track, including transfer time. Official guidance: arrive about 20 minutes early; seating is not guaranteed."
+      }
+    },
+    {
+      "id": "1785179690271001xi4A",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "12:30–1:10 PM",
+      "start": "2026-10-28T12:30:00-07:00",
+      "end": "2026-10-28T13:10:00-07:00",
+      "title": "Build once, run on any agent: a practical guide to agent skills",
+      "category": "Reusable skills",
+      "reason": "For developers and platform teams: learn when to package recurring work as reusable agent skills rather than repeat prompts. Compare how to encode engineering judgment and distribute useful patterns across Vanguard teams.",
+      "room": "Cowell Theater @ Gateway Pavilion",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1785179690271001xi4A",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "team"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "team": " Tight transfer: 20 minutes, including an estimated 15-minute walk and five-minute early arrival. Allow extra time for queues."
+      }
+    },
+    {
+      "id": "1785161525956001tBix",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "12:50–1:20 PM",
+      "start": "2026-10-28T12:50:00-07:00",
+      "end": "2026-10-28T13:20:00-07:00",
+      "title": "The factory mindset: Agentic workflows in production",
+      "category": "Enterprise transformation",
+      "reason": "Evaluate the organizational changes behind governed production agent workflows. Bring back questions for Vanguard about auditability, centralized controls, ownership, and the conditions under which agent automation should expand.",
+      "room": "Main Stage @ Festival Pavilion",
+      "format": "Main Stage",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1785161525956001tBix",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "leadership"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "leadership": ""
+      }
+    },
+    {
+      "id": "1785346960888001Jg2j",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "1:45–2:00 PM",
+      "start": "2026-10-28T13:45:00-07:00",
+      "end": "2026-10-28T14:00:00-07:00",
+      "title": "What does shift left mean in an agentic world?",
+      "category": "Risk oversight",
+      "reason": "Examine how evidence and human oversight change when agents participate in software delivery. Translate the demo into design and oversight questions about reviewable changes and clear accountability in a financial-services environment.",
+      "room": "Demos & Donuts @ Gateway Pavilion, Level 2",
+      "format": "Product Demo",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1785346960888001Jg2j",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "leadership",
+        "team"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "team": "",
+        "leadership": ""
+      }
+    },
+    {
+      "id": "1776695285557001LaZG",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "2:30–3:10 PM",
+      "start": "2026-10-28T14:30:00-07:00",
+      "end": "2026-10-28T15:10:00-07:00",
+      "title": "Beyond \"hours saved\": How AMD and ING measure AI at enterprise scale",
+      "category": "AI investment value",
+      "reason": "Compare AMD and ING's methods for evaluating enterprise AI investment. Use the banking perspective to shape Vanguard's measurement discussion around delivery outcomes, quality, and investment choices rather than hours-saved claims alone.",
+      "room": "Cowell Theater @ Gateway Pavilion",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1776695285557001LaZG",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "leadership"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "leadership": ""
+      }
+    },
+    {
+      "id": "1777658986177001QNCH",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "2:30–3:00 PM",
+      "start": "2026-10-28T14:30:00-07:00",
+      "end": "2026-10-28T15:00:00-07:00",
+      "title": "Disrupting supply chain attacks: A threat framework for GitHub Actions",
+      "category": "Actions security",
+      "reason": "For platform and security engineers: map CI/CD attack techniques to controls across workflows, credentials, and runner infrastructure. Use the threat framework to structure follow-up on Vanguard's secure pipeline and runner design choices.",
+      "room": "Main Stage @ Festival Pavilion",
+      "format": "Main Stage",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777658986177001QNCH",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "team"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "team": ""
+      }
+    },
+    {
+      "id": "1785266292155001nU90",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "2:30–3:10 PM",
+      "start": "2026-10-28T14:30:00-07:00",
+      "end": "2026-10-28T15:10:00-07:00",
+      "title": "One PM, four weeks, full compliance: How itti shipped a banking product with agents",
+      "category": "Financial services",
+      "reason": "Compare a banking-product team's use of AI with human approval gates and traceability. Choose this when regulated delivery and operating controls are more important than the parallel investment-measurement discussion.",
+      "room": "BATS Theatre @ Fort Mason Building B, 3rd Floor",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1785266292155001nU90",
+      "earlyArrival": 5,
+      "recommendedFor": [],
+      "alternativeFor": [
+        "leadership",
+        "team"
+      ],
+      "routeNotes": {
+        "team": "Replaces the 2:30 PM recommendation in this track, including transfer time.",
+        "leadership": "Replaces the 2:30 PM recommendation in this track, including transfer time."
+      }
+    },
+    {
+      "id": "1777692373101001qvdo",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "3:30–4:10 PM",
+      "start": "2026-10-28T15:30:00-07:00",
+      "end": "2026-10-28T16:10:00-07:00",
+      "title": "PATs, rulesets, and IP allowlists: How Confluent secured GitHub Enterprise Cloud",
+      "category": "Enterprise governance",
+      "reason": "Use Confluent's experience to examine what enterprise controls cost to implement and operate. Focus on ownership, rollout friction, and the tradeoffs Vanguard teams should assess when balancing developer experience and governance.",
+      "room": "Silent Disco Breakouts @ Festival Pavilion",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777692373101001qvdo",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "team"
+      ],
+      "alternativeFor": [
+        "leadership"
+      ],
+      "routeNotes": {
+        "team": "",
+        "leadership": "Replaces the 3:30 PM recommendation in this track, including transfer time."
+      }
+    },
+    {
+      "id": "1785529367672001eimf",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "3:30–3:45 PM",
+      "start": "2026-10-28T15:30:00-07:00",
+      "end": "2026-10-28T15:45:00-07:00",
+      "title": "Stop guessing: What 37 million pull requests reveal about AI impact",
+      "category": "Outcome measurement",
+      "reason": "Use cross-company pull-request evidence to challenge simplistic AI productivity claims. Identify measures Vanguard could examine alongside quality and risk indicators; research findings are not a forecast of Vanguard's results.",
+      "room": "Silent Disco Demos @ Festival Pavilion",
+      "format": "Product Demo",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1785529367672001eimf",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "leadership"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "leadership": " Tight transfer: 20 minutes, including an estimated 15-minute walk and five-minute early arrival. Allow extra time for queues."
+      }
+    },
+    {
+      "id": "1776181763137001TBjr",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "4:30–5:10 PM",
+      "start": "2026-10-28T16:30:00-07:00",
+      "end": "2026-10-28T17:10:00-07:00",
+      "title": "The human side of AI: How building community drove 94% Copilot adoption",
+      "category": "Change leadership",
+      "reason": "Learn from another financial-services organization's community-led Copilot adoption. Explore how leadership sponsorship, storytelling, and shared practice can sustain behavior change without treating another firm's adoption rate as a target or guarantee.",
+      "room": "BATS Theatre @ Fort Mason Building B, 3rd Floor",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1776181763137001TBjr",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "leadership"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "leadership": ""
+      }
+    },
+    {
+      "id": "1777507244576001uh1q",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "4:30–5:10 PM",
+      "start": "2026-10-28T16:30:00-07:00",
+      "end": "2026-10-28T17:10:00-07:00",
+      "title": "Security by default: a maintainer’s wishlist for GitHub Actions v2",
+      "category": "Secure platform defaults",
+      "reason": "For platform engineers, security, and developer enablement: examine Actions security pitfalls and fixes, and evaluate how safer defaults affect contribution workflows. Separate the maintainer's wishlist from features that are available today.",
+      "room": "Cowell Theater @ Gateway Pavilion",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777507244576001uh1q",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "team"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "team": " Tight transfer: 20 minutes, including an estimated 15-minute walk and five-minute early arrival. Allow extra time for queues."
+      }
+    },
+    {
+      "id": "1776118973412001agMC",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "9:00–9:40 AM",
+      "start": "2026-10-29T09:00:00-07:00",
+      "end": "2026-10-29T09:40:00-07:00",
+      "title": "Visa's Zero-Secrets Initiative: no hardcoded secrets, no exceptions",
+      "category": "Financial services",
+      "reason": "Consider Visa's approach to policy ownership, credential-risk reduction, and prevention at enterprise scale. This is a useful peer alternative for Vanguard leaders prioritizing security governance over the model-lab outlook.",
+      "room": "BATS Theatre @ Fort Mason Building B, 3rd Floor",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1776118973412001agMC",
+      "earlyArrival": 5,
+      "recommendedFor": [],
+      "alternativeFor": [
+        "leadership",
+        "team"
+      ],
+      "routeNotes": {
+        "team": "Replaces the 9:00 AM recommendation in this track, including transfer time.",
+        "leadership": "Replaces the 9:00 AM recommendation in this track, including transfer time."
+      }
+    },
+    {
+      "id": "1776470103196001fJPe",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "9:00–9:30 AM",
+      "start": "2026-10-29T09:00:00-07:00",
+      "end": "2026-10-29T09:30:00-07:00",
+      "title": "The view from the labs: What's next for AI-assisted development",
+      "category": "Strategic outlook",
+      "reason": "Hear model-lab leaders' outlook on AI-assisted development and pressure-test long-term investment assumptions. Consider implications for Vanguard's skills strategy, operating model, and roadmap conversations rather than assuming forecasts are commitments.",
+      "room": "Main Stage @ Festival Pavilion",
+      "format": "Main Stage",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1776470103196001fJPe",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "leadership"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "leadership": ""
+      }
+    },
+    {
+      "id": "1787615869752001IyaJ",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "9:00–9:40 AM",
+      "start": "2026-10-29T09:00:00-07:00",
+      "end": "2026-10-29T09:40:00-07:00",
+      "title": "Beyond pass or fail: How agents verify AI-generated code",
+      "category": "Agent verification",
+      "reason": "For developers, quality engineers, and security teams: examine how agents gather evidence and reproduce failures beyond a passing test suite. Apply deterministic boundaries and human escalation to evaluate agent-generated changes responsibly.",
+      "room": "Silent Disco Breakouts @ Festival Pavilion",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1787615869752001IyaJ",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "team"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "team": ""
+      }
+    },
+    {
+      "id": "1781738213966001Cmya",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "10:00–10:40 AM",
+      "start": "2026-10-29T10:00:00-07:00",
+      "end": "2026-10-29T10:40:00-07:00",
+      "title": "Write-only code: What happens to peer review when agents write the diffs",
+      "category": "Human accountability",
+      "room": "Cowell Theater @ Gateway Pavilion",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1781738213966001Cmya",
+      "earlyArrival": 5,
+      "reason": "Examine the tradeoffs of moving human review upstream when agents produce code. For Vanguard, focus on preserving accountability, engineering learning, and evidence of control effectiveness; treat the speakers' approach as a discussion, not a recommendation to remove required reviews.",
+      "recommendedFor": [
+        "leadership"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "leadership": ""
+      }
+    },
+    {
+      "id": "1777489102123001ThSM",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "10:20–10:35 AM",
+      "start": "2026-10-29T10:20:00-07:00",
+      "end": "2026-10-29T10:35:00-07:00",
+      "title": "Open PRs, don't merge them: Fine-grained authorization for hosted MCP servers",
+      "category": "MCP authorization",
+      "reason": "For Vanguard platform, identity, and security teams: study a per-identity authorization pattern for hosted MCP servers. Explore how to let an agent open a pull request while keeping merge approval with a human; evaluate the pattern against your own controls.",
+      "room": "Ship & Tell @ Firehouse",
+      "format": "Ship & Tell",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777489102123001ThSM",
+      "earlyArrival": 20,
+      "recommendedFor": [
+        "team"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "team": "Official guidance: arrive about 20 minutes early; seating is not guaranteed."
+      }
+    },
+    {
+      "id": "1778094834694001VKKT",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "11:00–11:40 AM",
+      "start": "2026-10-29T11:00:00-07:00",
+      "end": "2026-10-29T11:40:00-07:00",
+      "title": "AI, Actions, and tooling: Coinbase's move to GitHub with data residency",
+      "category": "Platform transformation",
+      "reason": "Study Coinbase's regulated platform migration for lessons in developer productivity, data residency, and self-service. Compare change-management and governance choices relevant to Vanguard's platform strategy without assuming the same architecture or regulatory requirements.",
+      "room": "Cowell Theater @ Gateway Pavilion",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1778094834694001VKKT",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "leadership",
+        "team"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "team": "",
+        "leadership": ""
+      }
+    },
+    {
+      "id": "1777694271181001nBNl",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "12:00–12:40 PM",
+      "start": "2026-10-29T12:00:00-07:00",
+      "end": "2026-10-29T12:40:00-07:00",
+      "title": "The night shift: Copilot agents that maintain their own self-hosted runners",
+      "category": "Runner operations",
+      "reason": "For platform and operations teams: examine policy-gated automation for maintaining self-hosted runners, updating dependencies, and escalating risky changes. Treat this as a self-hosted operating pattern, not a recommendation to choose it over hosted runners.",
+      "room": "BATS Theatre @ Fort Mason Building B, 3rd Floor",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777694271181001nBNl",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "team"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "team": " Tight transfer: 20 minutes, including an estimated 15-minute walk and five-minute early arrival. Allow extra time for queues."
+      }
+    },
+    {
+      "id": "1777643866054001BE2E",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "12:15–12:45 PM",
+      "start": "2026-10-29T12:15:00-07:00",
+      "end": "2026-10-29T12:45:00-07:00",
+      "title": "17 agents, one SDLC: How Levi Strauss reimagined development on GitHub",
+      "category": "Enterprise transformation",
+      "reason": "Evaluate Levi Strauss's multi-agent software lifecycle and human approval gates. Discuss which decision rights, readiness milestones, and escalation paths Vanguard would need before applying similar patterns across product teams.",
+      "room": "Main Stage @ Festival Pavilion",
+      "format": "Main Stage",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777643866054001BE2E",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "leadership"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "leadership": ""
+      }
+    },
+    {
+      "id": "1777576880526001AwEa",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "12:35–12:50 PM",
+      "start": "2026-10-29T12:35:00-07:00",
+      "end": "2026-10-29T12:50:00-07:00",
+      "title": "People, process, and GitHub: Eliminating 90% of enterprise AppSec risk",
+      "category": "Regulated-enterprise risk",
+      "reason": "Use Manulife's regulated-enterprise perspective to compare security culture, risk visibility, and remediation accountability. Look for leadership practices relevant to Vanguard without assuming insurer-specific requirements or numeric outcomes transfer.",
+      "room": "Ship & Tell @ Firehouse",
+      "format": "Ship & Tell",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777576880526001AwEa",
+      "earlyArrival": 20,
+      "recommendedFor": [],
+      "alternativeFor": [
+        "leadership",
+        "team"
+      ],
+      "routeNotes": {
+        "team": "Replaces the 12:00 PM and 1:00 PM recommendations in this track, including transfer time. Official guidance: arrive about 20 minutes early; seating is not guaranteed.",
+        "leadership": "Replaces the 12:15 PM and 1:05 PM recommendations in this track, including transfer time. Official guidance: arrive about 20 minutes early; seating is not guaranteed."
+      }
+    },
+    {
+      "id": "1778275240014001huB4",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "1:00–1:40 PM",
+      "start": "2026-10-29T13:00:00-07:00",
+      "end": "2026-10-29T13:40:00-07:00",
+      "title": "Treat your AI context as infrastructure",
+      "category": "Platform enablement",
+      "reason": "For developers, platform engineering, and enablement teams: compare instructions, skills, custom agents, and MCP as managed context infrastructure. Take away a practical approach to standardizing and distributing useful context across Vanguard teams.",
+      "room": "Cowell Theater @ Gateway Pavilion",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1778275240014001huB4",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "team"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "team": " Tight transfer: 20 minutes, including an estimated 15-minute walk and five-minute early arrival. Allow extra time for queues."
+      }
+    },
+    {
+      "id": "1777674201455001Cr9A",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "1:05–1:35 PM",
+      "start": "2026-10-29T13:05:00-07:00",
+      "end": "2026-10-29T13:35:00-07:00",
+      "title": "Why sketching in code matters more in the age of AI",
+      "category": "Human judgment",
+      "reason": "Explore the role of human understanding and creative judgment as AI generates more output. Use the discussion to inform Vanguard's leadership approach to team learning, cross-functional collaboration, and accountability for technology decisions.",
+      "room": "Main Stage @ Festival Pavilion",
+      "format": "Main Stage",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777674201455001Cr9A",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "leadership"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "leadership": ""
+      }
+    },
+    {
+      "id": "1788965213758001y1se",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "2:00–3:00 PM",
+      "start": "2026-10-29T14:00:00-07:00",
+      "end": "2026-10-29T15:00:00-07:00",
+      "title": "Closing Keynote",
+      "category": "Strategic synthesis",
+      "reason": "Bring both Vanguard tracks back together and compare technical and leadership takeaways on responsible agents, engineering outcomes, and platform strategy. The detailed keynote program is still developing; no specific announcement is assumed.",
+      "room": "Main Stage @ Festival Pavilion",
+      "format": "Keynote",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1788965213758001y1se",
+      "earlyArrival": 5,
+      "recommendedFor": [
+        "leadership",
+        "team"
+      ],
+      "alternativeFor": [],
+      "routeNotes": {
+        "team": " Tight transfer: 20 minutes, including an estimated 15-minute walk and five-minute early arrival. Allow extra time for queues.",
+        "leadership": ""
+      }
+    }
+  ],
+  "venues": [
+    {
+      "number": 1,
+      "name": "Faros happy hour at Radhaus",
+      "time": "5:00–7:00 PM | Time unconfirmed | On campus",
+      "address": "2 Marina Blvd, Building A, San Francisco",
+      "position": [
+        37.806886,
+        -122.4322073
+      ],
+      "reason": "Compare engineering-outcome measurement and AI investment value with technology peers. After the 5:10 PM session finish, allow travel and plan to join around 5:30 PM.",
+      "status": "Date/venue published; 5-7 PM unconfirmed. Limited capacity; request a spot and await host confirmation.",
+      "url": "https://pages.faros.ai/connect-with-faros-at-github-universe"
+    },
+    {
+      "number": 2,
+      "name": "Xebia's Broad Street Oyster Bash",
+      "time": "6:00–9:00 PM | Unconfirmed alternative",
+      "address": "900 North Point St, Suite K201, San Francisco",
+      "position": [
+        37.8058477,
+        -122.4229027
+      ],
+      "reason": "Explore enterprise modernization and responsible AI adoption with peers. Consider the operating-model lessons relevant to Vanguard; attend only after the host confirms details and access.",
+      "status": "Unconfirmed schedule, venue, and access. Supplied RSVP unavailable; obtain current details from the host.",
+      "url": null
+    },
+    {
+      "number": 3,
+      "name": "Slalom AI in Motion",
+      "time": "5:30–7:30 PM | Unconfirmed leadership option",
+      "address": "851 Beach St, San Francisco",
+      "position": [
+        37.8061975,
+        -122.4230705
+      ],
+      "reason": "Discuss scaling responsible AI, organizational change, and executive sponsorship. Choose this or Faros as the primary gathering rather than trying to cover every event.",
+      "status": "Unconfirmed date, hours, and venue. Supplied RSVP redirects to a general site; obtain an event link.",
+      "url": null
+    },
+    {
+      "number": 4,
+      "name": "Cloudsmith DevOps on Draft",
+      "time": "6:00–9:00 PM | Host approval required",
+      "address": "3150 Polk St, San Francisco",
+      "position": [
+        37.8057746,
+        -122.4236489
+      ],
+      "reason": "Compare software-supply-chain risk and platform-governance practices with peers. A useful alternative for Vanguard attendees focused on secure delivery and reusable platform capabilities.",
+      "status": "Published Oct 28; approval required. Co-hosts: Chainguard, Eficode, Octopus Deploy, Tailscale. Admission not secured.",
+      "url": "https://luma.com/git-together"
+    },
+    {
+      "number": 5,
+      "name": "Insight happy hour at Bar Darling",
+      "time": "6:00–9:00 PM | Registration required",
+      "address": "2263 Chestnut St, San Francisco",
+      "position": [
+        37.8001729,
+        -122.4405522
+      ],
+      "reason": "Connect with technology leaders and GitHub experts around investment priorities, developer productivity, and governance. Use the broader setting for peer introductions rather than assuming a private executive meeting.",
+      "status": "Published date/time/venue; limited capacity. Register with Insight; attendance and eligibility remain unconfirmed.",
+      "url": "https://cvent.me/0r7oBD"
+    }
+  ]
+}
