@@ -108,10 +108,7 @@ async function start() {
     socialDescription.textContent = tuesday
       ? ""
       : conferenceDescription;
-    socialNotice.textContent = tuesday
-      ? "The welcome reception's date, time, and access remain unconfirmed. Both briefings are by arrangement: date, time, location, and organizer approval must be confirmed with your account team. No appointment or invitation is reserved, and executive eligibility does not imply team-wide access or a separate leadership track."
-      : conferenceNotice;
-    if (singleConferenceDay) socialNotice.textContent = conferenceNotice.split(";")[0] + ".";
+    socialNotice.textContent = conferenceNotice;
     document.querySelector("#social-section").insertBefore(
       socialCallout, tuesday || singleConferenceDay ? mappedSocials : document.querySelector("#social-results"));
     document.querySelector("#social-results").textContent = `${visibleSocials.length} ${tuesday ? "optional programs" : "social activities"} \u2022 optional; access and unconfirmed details are noted below`;
