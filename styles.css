@@ -20,7 +20,7 @@ h1 { max-width: 760px; margin: 8px 0 10px; font-size: clamp(30px, 5vw, 50px); li
 .stats strong { display: block; font-size: 20px; line-height: 1.2; }
 .stats span { color: var(--secondary); font-size: 12px; }
 .filters { position: sticky; top: 0; z-index: 1000; display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin: 22px 0 16px; padding-block: 10px; background: #0d1117f0; backdrop-filter: blur(10px); }
-.toggle-group { display: flex; gap: 5px; padding: 4px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
+.toggle-group { display: flex; flex-wrap: wrap; gap: 5px; padding: 4px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
 button { border: 0; border-radius: 7px; background: transparent; padding: 8px 12px; color: var(--secondary); font: inherit; cursor: pointer; }
 button[aria-pressed="true"] { background: #21262d; color: var(--foreground); }
 button:hover { color: var(--foreground); }
@@ -48,8 +48,9 @@ h2 { margin: 0 0 4px; font-size: clamp(24px, 4vw, 34px); letter-spacing: -.025em
 .callout { margin-block: 16px; padding: 15px 17px; border: 1px solid #3fb9506b; border-radius: 11px; background: #3fb95014; }
 .callout strong { color: #3fb950; }
 .map-and-venues { display: grid; grid-template-columns: minmax(360px, 1.25fr) minmax(320px, .75fr); gap: 16px; align-items: stretch; }
-#venue-map { min-height: 530px; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); box-shadow: 0 16px 48px #00000038; overflow: hidden; isolation: isolate; }
+#venue-map { height: 620px; border: 1px solid var(--line); border-radius: 14px; background: var(--panel); box-shadow: 0 16px 48px #00000038; overflow: hidden; isolation: isolate; }
 .venues { display: grid; gap: 10px; }
+#venues { max-height: 620px; overflow-y: auto; align-content: start; padding-right: 4px; }
 .venue-card { display: grid; grid-template-columns: 34px 1fr; gap: 12px; padding: 14px; border: 1px solid var(--line); border-radius: 11px; background: var(--panel); }
 .number { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--accent); color: #06111d; font-weight: 800; }
 h3 { margin: 0; font-size: 15px; line-height: 1.35; }
@@ -58,6 +59,15 @@ h3 { margin: 0; font-size: 15px; line-height: 1.35; }
 .address, .venue-status { display: block; margin-top: 7px; color: var(--secondary); font-size: 12px; }
 .directions { display: inline-block; margin-top: 8px; margin-right: 12px; color: var(--accent); font-size: 12px; font-weight: 700; text-decoration: none; }
 .pin { display: grid; place-items: center; width: 28px; height: 28px; border: 2px solid white; border-radius: 50%; background: #0969da; color: white; font: 800 13px/1 -apple-system, sans-serif; box-shadow: 0 2px 8px #0006; }
+.pin.provisional, .number.provisional { background: #a86c12; color: white; }
+.pin.provisional { border-style: dashed; }
+.venue-activity { margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--line); font-size: 13px; }
+.venue-activity strong { display: block; }
+.social-day { margin: 18px 0 4px; font-size: 18px; }
+.map-heading { margin: 24px 0 8px; font-size: 20px; }
+#social-section, #mapped-socials { scroll-margin-top: 150px; }
+#mapped-socials > .map-note { margin-bottom: 14px; }
+[hidden] { display: none !important; }
 .map-note { margin: 12px 2px 0; font-size: 12px; color: var(--secondary); }
 .map-error { padding: 20px; color: var(--secondary); }
 .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: white; color: #1f2328; }
@@ -68,6 +78,7 @@ footer p { margin: 0 0 12px; }
   .intro { padding: 22px; }
   .entry { grid-template-columns: 1fr; gap: 10px; }
   .map-and-venues { grid-template-columns: 1fr; }
-  #venue-map { min-height: 420px; }
+  #venue-map { height: 420px; }
+  #social-section, #mapped-socials { scroll-margin-top: 240px; }
 }
 @media (prefers-reduced-motion: reduce) { .entry { transition: none; } .entry:hover { transform: none; } }

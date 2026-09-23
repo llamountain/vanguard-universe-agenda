@@ -619,69 +619,434 @@
   ],
   "venues": [
     {
+      "id": "radhaus",
       "number": 1,
-      "name": "Faros happy hour at Radhaus",
-      "time": "5:00–7:00 PM | Time unconfirmed | On campus",
+      "sourceIds": [
+        "faros"
+      ],
+      "name": "Radhaus",
       "address": "2 Marina Blvd, Building A, San Francisco",
       "position": [
-        37.806886,
-        -122.4322073
+        37.8064957,
+        -122.432096
       ],
-      "reason": "Compare engineering-outcome measurement and AI investment value with technology peers. After the 5:10 PM session finish, allow travel and plan to join around 5:30 PM.",
-      "status": "Date/venue published; 5-7 PM unconfirmed. Limited capacity; request a spot and await host confirmation.",
-      "url": "https://pages.faros.ai/connect-with-faros-at-github-universe"
+      "provisional": false,
+      "locationNote": "Venue published; event time and access still require confirmation."
     },
     {
+      "id": "broad-street",
       "number": 2,
-      "name": "Xebia's Broad Street Oyster Bash",
-      "time": "6:00–9:00 PM | Unconfirmed alternative",
+      "sourceIds": [
+        "xebia"
+      ],
+      "name": "Broad Street Oyster Co.",
       "address": "900 North Point St, Suite K201, San Francisco",
       "position": [
         37.8058477,
         -122.4229027
       ],
-      "reason": "Explore enterprise modernization and responsible AI adoption with peers. Consider the operating-model lessons relevant to Vanguard; attend only after the host confirms details and access.",
-      "status": "Unconfirmed schedule, venue, and access. Supplied RSVP unavailable; obtain current details from the host.",
-      "url": null
+      "provisional": true,
+      "locationNote": "Possible venue from the supplied event details; confirm the event and location with Xebia."
     },
     {
+      "id": "culinary-artistas",
       "number": 3,
-      "name": "Slalom AI in Motion",
-      "time": "5:30–7:30 PM | Unconfirmed leadership option",
+      "sourceIds": [
+        "slalom"
+      ],
+      "name": "Culinary Artistas",
       "address": "851 Beach St, San Francisco",
       "position": [
         37.8061975,
         -122.4230705
       ],
-      "reason": "Discuss scaling responsible AI, organizational change, and executive sponsorship. Choose this or Faros as the primary gathering rather than trying to cover every event.",
-      "status": "Unconfirmed date, hours, and venue. Supplied RSVP redirects to a general site; obtain an event link.",
-      "url": null
+      "provisional": true,
+      "locationNote": "Possible venue; date, hours, and event location remain unconfirmed."
     },
     {
+      "id": "sf-brewing",
       "number": 4,
-      "name": "Cloudsmith DevOps on Draft",
-      "time": "6:00–9:00 PM | Host approval required",
+      "sourceIds": [
+        "cloudsmith-eficode"
+      ],
+      "name": "San Francisco Brewing Co.",
       "address": "3150 Polk St, San Francisco",
       "position": [
         37.8057746,
         -122.4236489
       ],
-      "reason": "Compare software-supply-chain risk and platform-governance practices with peers. A useful alternative for Vanguard attendees focused on secure delivery and reusable platform capabilities.",
-      "status": "Published Oct 28; approval required. Co-hosts: Chainguard, Eficode, Octopus Deploy, Tailscale. Admission not secured.",
-      "url": "https://luma.com/git-together"
+      "provisional": false,
+      "locationNote": "Published venue; host approval is required."
     },
     {
+      "id": "bar-darling",
       "number": 5,
-      "name": "Insight happy hour at Bar Darling",
-      "time": "6:00–9:00 PM | Registration required",
+      "sourceIds": [
+        "insight"
+      ],
+      "name": "Bar Darling",
       "address": "2263 Chestnut St, San Francisco",
       "position": [
         37.8001729,
         -122.4405522
       ],
+      "provisional": false,
+      "locationNote": "Published venue; register and confirm attendance with Insight."
+    },
+    {
+      "id": "pier",
+      "number": 6,
+      "sourceIds": [
+        "sonar"
+      ],
+      "name": "Pier 43 1/2 area",
+      "address": "Pier 43 1/2, Fisherman's Wharf, San Francisco",
+      "position": [
+        37.8091895,
+        -122.4151723
+      ],
+      "provisional": true,
+      "locationNote": "Approximate pier-area reference from the operator's visitor location. Sonar's event date, venue, and boarding point are unconfirmed; do not treat this as a boarding instruction."
+    },
+    {
+      "id": "for-the-record",
+      "number": 7,
+      "sourceIds": [
+        "neubird"
+      ],
+      "name": "For the Record",
+      "address": "2120 Greenwich St, San Francisco",
+      "position": [
+        37.7991883,
+        -122.4346664
+      ],
+      "provisional": true,
+      "locationNote": "Address reference only; event date, hours, venue, and access remain unconfirmed."
+    },
+    {
+      "id": "barrio",
+      "number": 8,
+      "sourceIds": [
+        "rubrik"
+      ],
+      "name": "Barrio at Ghirardelli Square",
+      "address": "900 North Point St, San Francisco",
+      "position": [
+        37.8061057,
+        -122.4223354
+      ],
+      "provisional": true,
+      "locationNote": "Possible Barrio location, not a confirmed Rubrik event address. Confirm the venue and event details with the host."
+    },
+    {
+      "id": "flores",
+      "number": 9,
+      "sourceIds": [
+        "bitrise"
+      ],
+      "name": "Flores San Francisco",
+      "address": "2030 Union St, San Francisco",
+      "position": [
+        37.7975643,
+        -122.4325655
+      ],
+      "provisional": false,
+      "locationNote": "Published venue; invitation and host acceptance required."
+    },
+    {
+      "id": "subpar",
+      "number": 10,
+      "sourceIds": [
+        "mintlify-entire"
+      ],
+      "name": "Subpar Miniature Golf",
+      "address": "Subpar Miniature Golf, Ghirardelli Square, San Francisco",
+      "position": [
+        37.8059266,
+        -122.4232078
+      ],
+      "provisional": true,
+      "locationNote": "Possible venue named in the supplied handoff, not confirmed by the event host. Obtain the exact venue and approval before traveling."
+    },
+    {
+      "id": "civic-kitchen",
+      "number": 11,
+      "sourceIds": [
+        "gitprotect"
+      ],
+      "name": "The Civic Kitchen",
+      "address": "2961 Mission St, San Francisco",
+      "position": [
+        37.7497324,
+        -122.418082
+      ],
+      "provisional": false,
+      "locationNote": "Published venue; selected Security/DevOps leaders only, subject to waitlist review and host confirmation."
+    },
+    {
+      "id": "market-street",
+      "number": 12,
+      "sourceIds": [
+        "figma"
+      ],
+      "name": "760 Market St - provisional Figma location",
+      "address": "760 Market St, San Francisco",
+      "position": [
+        37.7863711,
+        -122.4054895
+      ],
+      "provisional": true,
+      "locationNote": "Building reference only, not verification of Figma's headquarters or event venue. Thursday Oct 29 is inferred from a conflicting Sep 29 source date; confirm all details."
+    },
+    {
+      "id": "jellyfish-tbd",
+      "number": null,
+      "sourceIds": [
+        "jellyfish"
+      ],
+      "name": "Jellyfish dinner - venue to be announced",
+      "address": null,
+      "position": null,
+      "provisional": true,
+      "locationNote": "No confirmed address; no map pin or directions have been invented."
+    },
+    {
+      "id": "rewind-tbd",
+      "number": null,
+      "sourceIds": [
+        "rewind"
+      ],
+      "name": "Rewind gathering - exact venue unconfirmed",
+      "address": null,
+      "position": null,
+      "provisional": true,
+      "locationNote": "Redwood Empire Whiskey is named, but the event venue is not established. The brand's Vallejo visitor location is not assumed to be this event's location."
+    }
+  ],
+  "socials": [
+    {
+      "id": "social-faros",
+      "sourceId": "faros",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "5:00 PM - 7:00 PM",
+      "plannedStart": "2026-10-28T17:00:00-07:00",
+      "plannedEnd": "2026-10-28T19:00:00-07:00",
+      "title": "AI Engineering Happy Hour with Faros",
+      "category": "Sponsor social",
+      "format": "Faros AI | Sponsor-hosted",
+      "reason": "Compare engineering-outcome measurement and AI investment value with technology peers. After the 5:10 PM session finish, allow travel and plan to join around 5:30 PM.",
+      "room": "Radhaus | Fort Mason campus",
+      "note": "Date/venue published; 5-7 PM unconfirmed. Limited capacity; request a spot and await host confirmation. Overlaps the 4:30 PM team recommendation; plan separately from the session route. Overlaps the 4:30 PM leadership recommendation; plan separately from the session route.",
+      "url": "https://pages.faros.ai/connect-with-faros-at-github-universe"
+    },
+    {
+      "id": "social-sonar",
+      "sourceId": "sonar",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "5:00 PM - 7:00 PM",
+      "plannedStart": "2026-10-28T17:00:00-07:00",
+      "plannedEnd": "2026-10-28T19:00:00-07:00",
+      "title": "Sunset Boat Cruise",
+      "category": "Sponsor social",
+      "format": "Sonar | Sponsor-hosted",
+      "reason": "Compare code quality, repository findings, and developer-led security practices in an optional peer setting. Confirm the cruise date, boarding location, and departure requirements before replacing afternoon sessions.",
+      "room": "Pier 43 1/2 (unconfirmed)",
+      "note": "Unconfirmed: Oct 28 conflicts with a June 30 source date. Hours, venue, access, and RSVP need confirmation. Overlaps the 4:30 PM team recommendation; plan separately from the session route. Overlaps the 4:30 PM leadership recommendation; plan separately from the session route.",
+      "url": null
+    },
+    {
+      "id": "social-slalom",
+      "sourceId": "slalom",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "5:30 PM - 7:30 PM",
+      "plannedStart": "2026-10-28T17:30:00-07:00",
+      "plannedEnd": "2026-10-28T19:30:00-07:00",
+      "title": "AI in Motion: New Trajectories Evening Reception",
+      "category": "Sponsor social",
+      "format": "Slalom | Sponsor-hosted",
+      "reason": "Discuss scaling responsible AI, organizational change, and executive sponsorship. Choose this or Faros as the primary gathering rather than trying to cover every event.",
+      "room": "Culinary Artistas | 851 Beach St",
+      "note": "Unconfirmed date, hours, and venue. Supplied RSVP redirects to a general site; obtain an event link.",
+      "url": null
+    },
+    {
+      "id": "social-neubird",
+      "sourceId": "neubird",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "5:30 PM - 7:30 PM",
+      "plannedStart": "2026-10-28T17:30:00-07:00",
+      "plannedEnd": "2026-10-28T19:30:00-07:00",
+      "title": "NeuBird AI Happy Hour",
+      "category": "Sponsor social",
+      "format": "NeuBird AI | Sponsor-hosted",
+      "reason": "Explore operational AI and incident-investigation approaches with peers, focusing on trustworthy evidence, human oversight, and resilient platform operations.",
+      "room": "For the Record | 2120 Greenwich St",
+      "note": "Unconfirmed date, hours, venue, and access. No verified RSVP link; confirm directly with the host.",
+      "url": null
+    },
+    {
+      "id": "social-rubrik",
+      "sourceId": "rubrik",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "5:30 PM - 8:30 PM",
+      "plannedStart": "2026-10-28T17:30:00-07:00",
+      "plannedEnd": "2026-10-28T20:30:00-07:00",
+      "title": "Recovery Hour with Rubrik",
+      "category": "Sponsor social",
+      "format": "Rubrik | Sponsor-hosted",
+      "reason": "Discuss recovery planning and engineering continuity relevant to a financial-services platform. Compare approaches without treating backup or recovery capabilities as service-availability guarantees.",
+      "room": "Barrio (address to be confirmed)",
+      "note": "Unconfirmed schedule, venue, and access. Host link supplied; event details could not be independently verified.",
+      "url": "https://rubrik.registration.goldcast.io/events/e44f07c0-8a90-4556-bd73-9a61845fd1cf"
+    },
+    {
+      "id": "social-jellyfish",
+      "sourceId": "jellyfish",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "5:30 PM - 9:00 PM",
+      "plannedStart": "2026-10-28T17:30:00-07:00",
+      "plannedEnd": "2026-10-28T21:00:00-07:00",
+      "title": "The AIDLC Table: SF Executive Dinner",
+      "category": "Sponsor social",
+      "format": "Jellyfish | Sponsor-hosted",
+      "reason": "Continue the engineering-measurement discussion with technology leaders. Compare useful AI-delivery and investment signals; confirm executive eligibility, timing, and venue before making plans.",
+      "room": "Venue to be announced",
+      "note": "Unconfirmed schedule and eligibility. Executive-oriented dinner; no RSVP link or venue confirmed.",
+      "url": null
+    },
+    {
+      "id": "social-bitrise",
+      "sourceId": "bitrise",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "6:00 PM - 10:00 PM",
+      "plannedStart": "2026-10-28T18:00:00-07:00",
+      "plannedEnd": "2026-10-28T22:00:00-07:00",
+      "title": "Bitrise Connect San Francisco",
+      "category": "Sponsor social",
+      "format": "Bitrise | Sponsor-hosted",
+      "reason": "Consider mobile delivery, build reliability, and developer enablement discussions if relevant to your role. Confirm invitation status and mobile-community fit with the host.",
+      "room": "Flores San Francisco | 2030 Union St",
+      "note": "Published schedule/venue; invitation-only with limited spots. Confirm mobile-community fit and host acceptance.",
+      "url": "https://bitrise.io/resources/events/bitrise-connect-san-francisco-2026"
+    },
+    {
+      "id": "social-xebia",
+      "sourceId": "xebia",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "6:00 PM - 9:00 PM",
+      "plannedStart": "2026-10-28T18:00:00-07:00",
+      "plannedEnd": "2026-10-28T21:00:00-07:00",
+      "title": "Broad Street Oyster Bash",
+      "category": "Sponsor social",
+      "format": "Xebia | Sponsor-hosted",
+      "reason": "Explore enterprise modernization and responsible AI adoption with peers. Consider the operating-model lessons relevant to Vanguard; attend only after the host confirms details and access.",
+      "room": "Broad Street Oyster Co | 900 North Point St",
+      "note": "Unconfirmed schedule, venue, and access. Supplied RSVP unavailable; obtain current details from the host.",
+      "url": null
+    },
+    {
+      "id": "social-mintlify-entire",
+      "sourceId": "mintlify-entire",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "6:00 PM - 8:30 PM",
+      "plannedStart": "2026-10-28T18:00:00-07:00",
+      "plannedEnd": "2026-10-28T20:30:00-07:00",
+      "title": "Builders on the Green",
+      "category": "Sponsor social",
+      "format": "Mintlify / Entire | Sponsor-hosted",
+      "reason": "Exchange ideas on developer documentation, reusable context, and practical agent workflows that Vanguard engineering and enablement teams could evaluate.",
+      "room": "San Francisco | exact venue from host",
+      "note": "Published schedule; approval required. Subpar Miniature Golf is an unconfirmed handoff venue; confirm with host.",
+      "url": "https://luma.com/mintlify-entire-golf?utm_source=githubeventspromo"
+    },
+    {
+      "id": "social-cloudsmith-eficode",
+      "sourceId": "cloudsmith-eficode",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "6:00 PM - 9:00 PM",
+      "plannedStart": "2026-10-28T18:00:00-07:00",
+      "plannedEnd": "2026-10-28T21:00:00-07:00",
+      "title": "DevOps on Draft: A Universe Git-Together",
+      "category": "Sponsor social",
+      "format": "Cloudsmith + co-hosts",
+      "reason": "Compare software-supply-chain risk and platform-governance practices with peers. A useful alternative for Vanguard attendees focused on secure delivery and reusable platform capabilities.",
+      "room": "San Francisco Brewing Co. | 3150 Polk St",
+      "note": "Published Oct 28; approval required. Co-hosts: Chainguard, Eficode, Octopus Deploy, Tailscale. Admission not secured.",
+      "url": "https://luma.com/git-together"
+    },
+    {
+      "id": "social-insight",
+      "sourceId": "insight",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "6:00 PM - 9:00 PM",
+      "plannedStart": "2026-10-28T18:00:00-07:00",
+      "plannedEnd": "2026-10-28T21:00:00-07:00",
+      "title": "GitHub Universe Happy Hour with Insight",
+      "category": "Sponsor social",
+      "format": "Insight | Sponsor-hosted",
       "reason": "Connect with technology leaders and GitHub experts around investment priorities, developer productivity, and governance. Use the broader setting for peer introductions rather than assuming a private executive meeting.",
-      "status": "Published date/time/venue; limited capacity. Register with Insight; attendance and eligibility remain unconfirmed.",
+      "room": "Bar Darling | 2263 Chestnut St",
+      "note": "Published date/time/venue; limited capacity. Register with Insight; attendance and eligibility remain unconfirmed.",
       "url": "https://cvent.me/0r7oBD"
+    },
+    {
+      "id": "social-gitprotect",
+      "sourceId": "gitprotect",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "6:00 PM - 10:00 PM",
+      "plannedStart": "2026-10-28T18:00:00-07:00",
+      "plannedEnd": "2026-10-28T22:00:00-07:00",
+      "title": "Live Cooking Experience for Security Leaders",
+      "category": "Sponsor social",
+      "format": "GitProtect.io | Sponsor-hosted",
+      "reason": "Compare protection of engineering assets, recovery readiness, and security ownership with Security and DevOps peers. This experience requires host acceptance and is not automatically open to the whole team.",
+      "room": "The Civic Kitchen | 2961 Mission St",
+      "note": "Published schedule. Selected Security/DevOps leaders; waitlist review and host confirmation required. No seat secured.",
+      "url": "https://luma.com/u3bovjl3?utm_source=github"
+    },
+    {
+      "id": "social-rewind",
+      "sourceId": "rewind",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "6:30 PM - 9:00 PM",
+      "plannedStart": "2026-10-28T18:30:00-07:00",
+      "plannedEnd": "2026-10-28T21:00:00-07:00",
+      "title": "A Taste of the Craft",
+      "category": "Sponsor social",
+      "format": "Rewind | Sponsor-hosted",
+      "reason": "Discuss engineering continuity and platform operations in an informal peer setting. Obtain the exact event venue and host confirmation before arranging travel.",
+      "room": "Redwood Empire Whiskey (unconfirmed)",
+      "note": "Unconfirmed schedule, exact venue, and access. No verified RSVP link; confirm directly with the host.",
+      "url": null
+    },
+    {
+      "id": "social-figma",
+      "sourceId": "figma",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "6:00 PM - 9:00 PM",
+      "plannedStart": "2026-10-29T18:00:00-07:00",
+      "plannedEnd": "2026-10-29T21:00:00-07:00",
+      "title": "Figma Developer Meetup",
+      "category": "Sponsor social",
+      "format": "Figma | Sponsor-hosted",
+      "reason": "Explore design-to-development collaboration and cross-functional workflows with peers on Thursday, subject to confirmation of the inferred date, venue, and access.",
+      "room": "Figma HQ | 760 Market St (unconfirmed)",
+      "note": "Unconfirmed: Oct 29 is inferred from a Sep 29 source date. Confirm date, hours, venue, and RSVP.",
+      "url": null
     }
   ]
 }
