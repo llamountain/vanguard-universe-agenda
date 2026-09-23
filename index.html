@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Vanguard team and leadership tracks for GitHub Universe 2026, prepared by Lisa LaMountain.">
+  <meta name="description" content="Vanguard team agenda for GitHub Universe 2026, prepared by Lisa LaMountain.">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <title>Vanguard | Team &amp; Leadership Agenda</title>
+  <title>Vanguard | Team Agenda</title>
   <link rel="icon" href="data:,">
   <link rel="canonical" href="https://llamountain.github.io/vanguard-universe-agenda/">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
@@ -17,68 +17,61 @@
   <main class="page">
     <header class="intro">
       <div class="eyebrow">GitHub Universe 2026</div>
-      <h1>Vanguard<br>Team &amp; Leadership Agenda</h1>
-      <p class="subtitle">Two coordinated routes for the Vanguard team: practical sessions for developers, platform engineers, security, and enablement teams, alongside a leadership track on AI investment, responsible adoption, and organizational change.</p>
+      <h1>Vanguard<br>Team Agenda</h1>
+      <p class="subtitle">One coordinated route for Vanguard's developers, platform engineers, security, and enablement teams: reusable agent context and skills, MCP authorization, secure CI/CD, runner operations, and responsible platform adoption.</p>
       <div class="stats">
         <div><strong>2</strong><span>conference days</span></div>
-        <div><strong id="primary-count">14</strong><span>recommendations in selected track</span></div>
-        <div><strong id="alternative-count">4</strong><span>alternatives in selected track</span></div>
+        <div><strong id="primary-count">14</strong><span>recommended sessions</span></div>
+        <div><strong id="alternative-count">13</strong><span>optional alternatives</span></div>
         <div><strong>Oct 28-29</strong><span>Fort Mason, San Francisco</span></div>
       </div>
     </header>
     <section class="filters" aria-label="Agenda filters">
-      <div class="toggle-group" aria-label="Attendee track">
-        <button type="button" data-track="team" aria-pressed="true">Team</button>
-        <button type="button" data-track="leadership" aria-pressed="false">Leadership</button>
-        <button type="button" data-track="all" aria-pressed="false">All tracks</button>
-      </div>
-      <div class="toggle-group" aria-label="Conference day">
-        <button type="button" data-day="all" aria-pressed="true">Both days</button>
+      <div class="toggle-group" aria-label="Agenda day">
+        <button type="button" data-day="all" aria-pressed="true" title="Wednesday and Thursday conference days">Both days</button>
+        <button type="button" data-day="tue" aria-pressed="false">Tuesday</button>
         <button type="button" data-day="wed" aria-pressed="false">Wednesday</button>
         <button type="button" data-day="thu" aria-pressed="false">Thursday</button>
       </div>
-      <div class="toggle-group" aria-label="Session selection">
+      <div class="toggle-group" id="session-selection" aria-label="Session selection">
         <button type="button" data-mode="primary" aria-pressed="true">Recommended</button>
         <button type="button" data-mode="all" aria-pressed="false">Include alternatives</button>
       </div>
-      <input id="query" type="search" aria-label="Filter sessions, happy hours, and venues" placeholder="Filter sessions, happy hours, or venues...">
+      <input id="query" type="search" aria-label="Filter sessions, social activities, and add-ons" placeholder="Filter sessions, add-ons, or venues...">
     </section>
-    <p class="results" id="results" role="status">Loading team and leadership sessions...</p>
+    <p class="results" id="results" role="status">Loading team sessions...</p>
     <section id="schedule" class="schedule" aria-label="Recommended conference agenda"></section>
     <noscript><p class="empty">Enable JavaScript to display the agenda, filters, and venue map.</p></noscript>
 
     <section class="evening" id="social-section" aria-labelledby="evening-heading">
       <div class="section-heading">
         <div class="eyebrow" id="social-days">Wednesday &amp; Thursday | October 28-29</div>
-        <h2 id="evening-heading">Happy hour recommendations</h2>
-        <p>All 14 sponsor happy hours and after-hours gatherings: 13 listed for Wednesday and one for Thursday, including receptions, dinners, and other networking experiences. Options remain visible across Team, Leadership, and both session-selection modes. Unconfirmed dates, venues, and eligibility are noted on each card.</p>
+        <h2 id="evening-heading">Social activities &amp; networking</h2>
+        <p id="social-description">All 14 Wednesday and Thursday sponsor gatherings, networking programs, lunch seatings, and the official Women in Tech reception. Social options remain visible in both session-selection modes; use the day buttons or search to narrow the list.</p>
       </div>
-      <div class="callout"><strong>Team networking:</strong> Faros is a useful shared stop for engineering measurement and AI investment discussions; Cloudsmith offers a platform and software-supply-chain focus. Leaders can consider Slalom for enterprise AI strategy. Choose a primary gathering, compare notes across tracks, and confirm host details and RSVP before making plans.</div>
-      <p class="results" id="social-results" role="status">Loading happy hour recommendations...</p>
+      <div class="callout"><strong>Optional, not booked:</strong> <span id="social-notice">Many activities overlap sessions or each other. Unconfirmed dates, times, venues, and eligibility are stated on each card. Some events require an invitation, host approval, or special credentials; their inclusion does not create a separate leadership track or imply team-wide access. "Both days" means Wednesday and Thursday; the separate Tuesday tab contains the welcome reception and two by-arrangement briefings.</span></div>
+      <p class="results" id="social-results" role="status">Loading social activities...</p>
       <div id="social-activities" class="schedule"></div>
       <div id="mapped-socials">
         <h3 class="map-heading" id="map-heading">Venue map: Wednesday &amp; Thursday</h3>
-        <p class="map-note">Blue pins indicate published venues; amber pins are provisional locations or reference points, not confirmed event destinations. Gatherings without a defensible location are listed separately. Day and search filters apply to the event cards, map, and venue list. Use "Show on map" to inspect nearby pins individually.</p>
+        <p class="map-note">All listed activities are represented below, grouped by venue. Blue pins indicate published event venues; amber pins are provisional locations or approximate campus/pier references, not confirmed destinations. Activities without a defensible location are listed separately, without invented pins. Day and search filters apply to both the map and venue list. Shared venues use one pin; use "Show on map" to inspect nearby pins individually.</p>
         <p class="results" id="map-results" role="status"></p>
         <div class="map-and-venues" id="venue-map-layout">
-          <div id="venue-map" role="region" aria-label="Map of happy hour venues near GitHub Universe"></div>
-          <div id="venues" class="venues" role="region" aria-label="Mapped venues; scroll for all locations" tabindex="0"></div>
+          <div id="venue-map" role="region" aria-label="Map of social and add-on venues"></div>
+          <div id="venues" class="venues" role="region" aria-label="Mapped venues and activities; scroll for all locations" tabindex="0"></div>
         </div>
         <div id="unmapped-socials">
           <h3 class="map-heading">Awaiting an exact venue</h3>
-          <p class="map-note">These gatherings remain included in the recommendations. Confirm the location with the host before making travel plans.</p>
+          <p class="map-note">These activities remain part of your agenda. Confirm the location with the organizer before making travel plans.</p>
           <div id="unmapped-venues" class="venues"></div>
         </div>
       </div>
-      <p class="map-note">Event access is not reserved. Some gatherings overlap sessions or one another. Thursday's Figma date is inferred from a conflicting source date and remains unconfirmed. Reconfirm dates, hours, locations, eligibility, and RSVP with each host. Venue positions are not measured walking routes; use live directions for accessibility and current conditions.</p>
     </section>
     <footer>
-      <p><strong>Executive access:</strong> Ask your account team about a private Executive Briefing focused on responsible agent adoption, platform resilience, engineering outcomes, and roadmap alignment for Vanguard. No appointment, leadership participant, time, or venue is reserved. Executive/Partner Lounge credentials and hours also require confirmation. These are not scheduled conference sessions; replace a session once a briefing time is agreed.</p>
-      <p><strong>Vanguard session exclusion:</strong> Vanguard's own speaking session is intentionally omitted from both recommendations and alternatives. Speakers should protect their separate preparation and presentation commitments; this is an attendee itinerary, not a speaker schedule.</p>
-      <p><strong>Choose your route:</strong> Team covers Copilot context and skills, agent authorization, Actions security, runner operations, and regulated platform migration. Leadership covers AI value, workforce adoption, governance, and enterprise transformation. Shared recommendations appear once in All tracks; the combined view contains simultaneous sessions and is not a single-person itinerary. Split attendance across colleagues and compare takeaways afterward.</p>
-      <p><strong>Planning:</strong> Times are PDT (UTC-7). Each track's recommended sequence has no time overlaps. Transfers assume 10 minutes within a building or 15 between buildings, plus a minimum five-minute early arrival; allow more for queues and accessibility. Tight transfers are flagged. Official 20-minute early-arrival guidance is shown where applicable. Alternatives can conflict with neighboring sessions; follow the replacement notes for your track. Leave a session out for a longer lunch or executive meeting.</p>
-      <p>Sessions checked against the official Universe catalog on September 22, 2026. Partner-event status reflects the supplied handoff and research as of September 21, 2026; venue references were checked September 22 against OpenStreetMap and venue information. Finding an address does not confirm an event there. Public session titles link to the official catalog; social cards link to host information where available. No invitations, registrations, or seats are confirmed.</p>
-      <p>Prepared for Vanguard by <strong>Lisa LaMountain, Account Executive, GitHub</strong>. Updated September 23, 2026.</p>
+      <p><strong>Vanguard session exclusion:</strong> Vanguard's own speaking session remains omitted from recommendations and alternatives. Speakers should protect their separate preparation and presentation commitments; this is an attendee itinerary, not a speaker schedule.</p>
+      <p><strong>Planning:</strong> Times are PDT (UTC-7). The recommended sequence has no time overlaps. Transfers assume 10 minutes within a building or 15 between buildings, plus a minimum five-minute early arrival; allow more for queues and accessibility. Tight transfers are flagged. Official 20-minute early-arrival guidance is shown where applicable. Each alternative has replacement notes covering nearby conflicts and travel. Alternatives can overlap one another; recheck timing if combining several. Leave a session out for a longer lunch or team discussion.</p>
+      <p>Sessions and the Women in Tech reception checked against the official Universe catalog on September 22, 2026. Partner events and add-on details reflect the supplied handoff and research as of September 21, 2026. Figma's Thursday date is unconfirmed and inferred from a conflicting source date. Venue references checked September 22 against OpenStreetMap and venue information; finding a physical address does not confirm an event there. The pier reference uses the operator's <a href="https://www.redandwhite.com/directions-parking" target="_blank" rel="noopener noreferrer">visitor location</a>; use official on-site signage for the reception. Public session titles link to the official catalog; social cards link to host information where available. No invitations, registrations, or seats are confirmed.</p>
+      <p>Prepared for the Vanguard team by <strong>Lisa LaMountain, Account Executive, GitHub</strong>. Updated September 23, 2026.</p>
     </footer>
   </main>
 </body>

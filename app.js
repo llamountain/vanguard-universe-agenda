@@ -13,6 +13,26 @@ const externalLink = (label, url, className) => {
   link.rel = "noopener noreferrer";
   return link;
 };
+const agendaCard = (item, social = false) => {
+  const card = element("article", social ? "entry social-entry" : "entry");
+  card.dataset.id = item.id;
+  card.dataset.day = item.day;
+  if (social) card.dataset.sourceId = item.sourceId;
+  const timing = element("div", "timing", item.time);
+  timing.append(element("span", "date", item.date));
+  const heading = element("div");
+  heading.append(item.url ? externalLink(item.title, item.url, "session-title") : element("span", "session-title", item.title));
+  const labels = element("div", "labels");
+  labels.append(element("span", "label", item.category));
+  if (social || !item.recommended) labels.append(element("span", "label alternative",
+    social ? ((item.tab || item.day) === "tue" ? "Optional add-on" : "Optional social") : "Alternative"));
+  heading.append(labels);
+  const reason = element("p", "reason", item.reason);
+  reason.append(element("span", "location", `${item.format} \u00b7 ${item.room}`));
+  if (item.note) reason.append(element("span", "routing", item.note));
+  card.append(timing, heading, reason);
+  return card;
+};
 
 async function start() {
   const response = await fetch("./agenda.json");
@@ -21,32 +41,41 @@ async function start() {
   if (!Array.isArray(data.sessions) || !Array.isArray(data.socials) || !Array.isArray(data.venues)) {
     throw new Error("Agenda data is not in the expected format");
   }
-  const state = { day: "all", mode: "primary", track: "team", query: "" };
-  const trackNames = { team: "Team", leadership: "Leadership" };
-  const inTrack = tracks => state.track === "all" ? tracks.length > 0 : tracks.includes(state.track);
+  const requestedDay = new URLSearchParams(window.location.search).get("day");
+  const dayTitles = { all: "Wednesday & Thursday", tue: "Tuesday", wed: "Wednesday", thu: "Thursday" };
+  const state = { day: Object.hasOwn(dayTitles, requestedDay) ? requestedDay : "all", mode: "primary", query: "" };
   const schedule = document.querySelector("#schedule");
   const results = document.querySelector("#results");
   const socialList = document.querySelector("#social-activities");
   const venueList = document.querySelector("#venues");
-  const unmappedList = document.querySelector("#unmapped-venues");
   const mappedSocials = document.querySelector("#mapped-socials");
-  const dayTitles = { all: "Wednesday & Thursday", wed: "Wednesday", thu: "Thursday" };
+  const unmappedList = document.querySelector("#unmapped-venues");
+  const socialDescription = document.querySelector("#social-description");
+  const socialNotice = document.querySelector("#social-notice");
+  const socialCallout = socialNotice.parentElement;
+  const conferenceDescription = socialDescription.textContent;
+  const conferenceNotice = socialNotice.textContent;
   const locationsBySource = new Map(data.venues.flatMap(venue => venue.sourceIds.map(id => [id, venue])));
   let map;
   let markers;
+  document.querySelector("#primary-count").textContent = data.sessions.filter(s => s.recommended).length;
+  document.querySelector("#alternative-count").textContent = data.sessions.filter(s => !s.recommended).length;
 
   function render() {
+    const tuesday = state.day === "tue";
+    const singleConferenceDay = ["wed", "thu"].includes(state.day);
+    const matchesDay = item => state.day === "all"
+      ? ["wed", "thu"].includes(item.day)
+      : (item.tab || item.day) === state.day;
     const query = state.query.trim().toLocaleLowerCase();
-    document.querySelector("#primary-count").textContent = data.sessions.filter(s => inTrack(s.recommendedFor)).length;
-    document.querySelector("#alternative-count").textContent = data.sessions.filter(s => inTrack(s.alternativeFor)).length;
     const visible = data.sessions.filter(session =>
-      (state.day === "all" || state.day === session.day) &&
-      (inTrack(session.recommendedFor) || (state.mode === "all" && inTrack(session.alternativeFor))) &&
+      matchesDay(session) &&
+      (state.mode === "all" || session.recommended) &&
       [session.title, session.category, session.reason, session.room].join(" ").toLocaleLowerCase().includes(query)
     );
     const visibleSocials = data.socials.filter(social =>
-      (state.day === "all" || state.day === social.day) &&
-      [social.title, social.format, social.reason, social.room, social.note,
+      matchesDay(social) &&
+      [social.title, social.category, social.format, social.reason, social.room, social.note,
         locationsBySource.get(social.sourceId).name, locationsBySource.get(social.sourceId).address]
         .join(" ").toLocaleLowerCase().includes(query)
     );
@@ -54,73 +83,44 @@ async function start() {
       button.setAttribute("aria-pressed", String(button.dataset.day === state.day)));
     document.querySelectorAll("[data-mode]").forEach(button =>
       button.setAttribute("aria-pressed", String(button.dataset.mode === state.mode)));
-    document.querySelectorAll("[data-track]").forEach(button =>
-      button.setAttribute("aria-pressed", String(button.dataset.track === state.track)));
-    const guidance = state.track === "all"
-      ? "combined tracks overlap; choose a route for a sequenced itinerary"
-      : `${trackNames[state.track]} track \u2022 ${state.mode === "primary" ? "sequenced itinerary" : "alternatives may overlap; follow replacement notes"}`;
-    results.textContent = `${visible.length} ${visible.length === 1 ? "session" : "sessions"} \u2022 ${guidance}`;
-    const socialLink = element("a", "", `${visibleSocials.length} happy hour / after-hours recommendations`);
+    results.textContent = tuesday ? "Tuesday planning" : `${visible.length} ${visible.length === 1 ? "session" : "sessions"} \u2022 ${state.mode === "primary" ? "sequenced team itinerary" : "alternatives may overlap; follow replacement notes"}`;
+    const socialLink = element("a", "", `${visibleSocials.length} ${tuesday ? "optional programs" : "social activities"}`);
     socialLink.href = "#social-section";
     results.append(" \u2022 ", socialLink);
+    const mapLink = element("a", "", "Venue map");
+    mapLink.href = "#mapped-socials";
+    if (visibleSocials.length) results.append(" \u2022 ", mapLink);
     schedule.replaceChildren();
-    if (!visible.length) {
+    schedule.hidden = tuesday;
+    document.querySelector("#session-selection").hidden = tuesday;
+    if (!visible.length && !tuesday) {
       schedule.append(element("div", "empty", "No sessions match the current filters."));
     }
-    for (const session of visible) {
-      const card = element("article", "entry");
-      card.dataset.id = session.id;
-      card.dataset.day = session.day;
-      const timing = element("div", "timing", session.time);
-      timing.append(element("span", "date", session.date));
-      const heading = element("div");
-      heading.append(externalLink(session.title, session.url, "session-title"));
-      const labels = element("div", "labels");
-      labels.append(element("span", "label", session.category));
-      for (const track of Object.keys(trackNames)) {
-        if (state.track !== "all" && state.track !== track) continue;
-        if (session.recommendedFor.includes(track)) labels.append(element("span", "label", `${trackNames[track]} recommended`));
-        else if (session.alternativeFor.includes(track)) labels.append(element("span", "label alternative", `${trackNames[track]} alternative`));
-      }
-      heading.append(labels);
-      const reason = element("p", "reason", session.reason);
-      reason.append(element("span", "location", `${session.format} \u00b7 ${session.room}`));
-      for (const [track, note] of Object.entries(session.routeNotes)) {
-        if (note && (state.track === "all" || state.track === track)) {
-          reason.append(element("span", "routing", `${trackNames[track]}: ${note}`));
-        }
-      }
-      card.append(timing, heading, reason);
-      schedule.append(card);
-    }
+    for (const session of visible) schedule.append(agendaCard(session));
     document.querySelector("#social-days").textContent = {
       all: "Wednesday & Thursday | October 28-29",
-      wed: "Wednesday | October 28", thu: "Thursday | October 29"
+      tue: "Tuesday | October 27 + by-arrangement briefings",
+      wed: "Wednesday | October 28",
+      thu: "Thursday | October 29"
     }[state.day];
-    document.querySelector("#social-results").textContent = `${visibleSocials.length} happy hour / after-hours recommendations \u2022 optional; confirm host details and access`;
+    document.querySelector("#evening-heading").textContent = tuesday ? "Tuesday Welcome Reception and Meeting Briefings" : "Social activities & networking";
+    socialDescription.hidden = tuesday;
+    socialDescription.textContent = tuesday
+      ? ""
+      : conferenceDescription;
+    socialNotice.textContent = tuesday
+      ? "The welcome reception's date, time, and access remain unconfirmed. Both briefings are by arrangement: date, time, location, and organizer approval must be confirmed with your account team. No appointment or invitation is reserved, and executive eligibility does not imply team-wide access or a separate leadership track."
+      : conferenceNotice;
+    if (singleConferenceDay) socialNotice.textContent = conferenceNotice.split(";")[0] + ".";
+    document.querySelector("#social-section").insertBefore(
+      socialCallout, tuesday || singleConferenceDay ? mappedSocials : document.querySelector("#social-results"));
+    document.querySelector("#social-results").textContent = `${visibleSocials.length} ${tuesday ? "optional programs" : "social activities"} \u2022 optional; access and unconfirmed details are noted below`;
     socialList.replaceChildren();
-    if (!visibleSocials.length) socialList.append(element("div", "empty", "No happy hour recommendations match the current filters."));
-    for (const [day, title] of [["wed", "Wednesday, October 28"], ["thu", "Thursday, October 29"]]) {
+    if (!visibleSocials.length) socialList.append(element("div", "empty", tuesday ? "No add-on programs match the current filters." : "No social activities match the current filters."));
+    for (const [day, title] of [["tue", "Tuesday, October 27 - unconfirmed"], ["wed", "Wednesday, October 28"], ["thu", "Thursday, October 29"], ["undated", "By arrangement - not confirmed for Tuesday"]]) {
       const activities = visibleSocials.filter(social => social.day === day);
-      if (activities.length) socialList.append(element("h3", "social-day", title));
-      for (const social of activities) {
-        const card = element("article", "entry social-entry");
-        card.dataset.id = social.id;
-        card.dataset.day = social.day;
-        card.dataset.sourceId = social.sourceId;
-        const timing = element("div", "timing", social.time);
-        timing.append(element("span", "date", social.date));
-        const heading = element("div");
-        heading.append(social.url ? externalLink(social.title, social.url, "session-title") : element("span", "session-title", social.title));
-        const labels = element("div", "labels");
-        labels.append(element("span", "label alternative", "Optional sponsor gathering"));
-        heading.append(labels);
-        const reason = element("p", "reason", social.reason);
-        reason.append(element("span", "location", `${social.format} \u00b7 ${social.room}`));
-        reason.append(element("span", "routing", social.note));
-        card.append(timing, heading, reason);
-        socialList.append(card);
-      }
+      if (activities.length && !tuesday) socialList.append(element("h3", "social-day", title));
+      for (const social of activities) socialList.append(agendaCard(social, true));
     }
     renderVenues(visibleSocials);
   }
@@ -132,10 +132,6 @@ async function start() {
     state.mode = button.dataset.mode;
     render();
   }));
-  document.querySelectorAll("[data-track]").forEach(button => button.addEventListener("click", () => {
-    state.track = button.dataset.track;
-    render();
-  }));
   document.querySelector("#query").addEventListener("input", event => {
     state.query = event.target.value;
     render();
@@ -143,10 +139,12 @@ async function start() {
   function activityDetails(social) {
     const detail = element("div", "venue-activity");
     detail.dataset.socialId = social.id;
-    detail.append(element("strong", "", social.title),
+    detail.append(
+      element("strong", "", social.title),
       element("div", "venue-time", `${social.date} \u00b7 ${social.time}`),
-      element("p", "", social.note));
-    if (social.url) detail.append(externalLink("Host details / RSVP", social.url, "directions"));
+      element("p", "", social.note)
+    );
+    if (social.url) detail.append(externalLink("Event details / RSVP", social.url, "directions"));
     return detail;
   }
   function renderVenues(socials) {
@@ -156,9 +154,10 @@ async function start() {
     const mapped = venues.filter(venue => venue.position);
     const unmapped = venues.filter(venue => !venue.position);
     const mappedCount = mapped.reduce((total, venue) => total + venue.activities.length, 0);
+    const unmappedCount = socials.length - mappedCount;
     mappedSocials.hidden = venues.length === 0;
-    document.querySelector("#map-heading").textContent = `Venue map: ${dayTitles[state.day]}`;
-    document.querySelector("#map-results").textContent = `${mapped.length} map locations covering ${mappedCount} gatherings \u2022 ${socials.length - mappedCount} awaiting an exact venue`;
+    document.querySelector("#map-heading").textContent = `Venue map: ${dayTitles[state.day]}${state.day === "tue" ? " planning" : ""}`;
+    document.querySelector("#map-results").textContent = `${mapped.length} map ${mapped.length === 1 ? "location" : "locations"} covering ${mappedCount} ${mappedCount === 1 ? "activity" : "activities"} \u2022 ${unmappedCount} ${unmappedCount === 1 ? "activity" : "activities"} awaiting an exact venue`;
     document.querySelector("#venue-map-layout").hidden = mapped.length === 0;
     document.querySelector("#unmapped-socials").hidden = unmapped.length === 0;
     venueList.replaceChildren();
@@ -170,11 +169,17 @@ async function start() {
       card.dataset.venueId = venue.id;
       card.append(element("span", venue.provisional ? "number provisional" : "number", venue.number ?? "?"));
       const body = element("div");
-      body.append(element("h3", "", venue.name), element("span", "venue-status", venue.locationNote));
+      body.append(
+        element("h3", "", venue.name),
+        element("span", "venue-status", venue.locationNote)
+      );
       if (venue.address) body.append(element("span", "address", venue.address));
-      if (venue.position) body.append(externalLink(
-        venue.provisional ? "Directions to reference location" : "Open directions",
-        `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(venue.address)}`, "directions"));
+      if (venue.position) {
+        body.append(externalLink(
+          venue.provisional ? "Directions to reference location" : "Open directions",
+          `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(venue.address)}`, "directions"
+        ));
+      }
       if (markers && venue.position) {
         const pin = element("span", venue.provisional ? "pin provisional" : "pin", venue.number);
         const icon = L.divIcon({ html: pin, className: "", iconSize: [28, 28], iconAnchor: [14, 14] });
@@ -232,5 +237,5 @@ async function start() {
 start().catch(error => {
   console.error(error);
   document.querySelector("#results").textContent = "The agenda could not load. Please reload or contact your account team.";
-  document.querySelector("#social-results").textContent = "Happy hour recommendations could not load. Please reload or contact your account team.";
+  document.querySelector("#social-results").textContent = "Social activities could not load. Please reload or contact your account team.";
 });

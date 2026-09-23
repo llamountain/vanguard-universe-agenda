@@ -15,15 +15,8 @@
       "format": "Keynote",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1786370222106001jLNQ",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "leadership",
-        "team"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "team": "",
-        "leadership": ""
-      }
+      "recommended": true,
+      "note": ""
     },
     {
       "id": "1777539050990001fp0w",
@@ -39,15 +32,8 @@
       "format": "Breakout Session",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777539050990001fp0w",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "leadership",
-        "team"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "team": "",
-        "leadership": ""
-      }
+      "recommended": true,
+      "note": ""
     },
     {
       "id": "1777557576923001fNOZ",
@@ -63,13 +49,8 @@
       "format": "Breakout Session",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777557576923001fNOZ",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "team"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "team": " Tight transfer: 20 minutes, including an estimated 15-minute walk and five-minute early arrival. Allow extra time for queues."
-      }
+      "recommended": true,
+      "note": "Tight transfer: 20 minutes, including an estimated 15-minute walk and 5-minute early arrival. Allow extra time for queues."
     },
     {
       "id": "1782223817329001J5Je",
@@ -85,13 +66,8 @@
       "format": "Breakout Session",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1782223817329001J5Je",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "leadership"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "leadership": ""
-      }
+      "recommended": false,
+      "note": "Replaces the 11:30 AM recommendation on this day, including transfer time."
     },
     {
       "id": "1777564797850001QoD8",
@@ -107,15 +83,8 @@
       "format": "Ship & Tell",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777564797850001QoD8",
       "earlyArrival": 20,
-      "recommendedFor": [],
-      "alternativeFor": [
-        "leadership",
-        "team"
-      ],
-      "routeNotes": {
-        "team": "Replaces the 11:30 AM and 12:30 PM recommendations in this track, including transfer time. Official guidance: arrive about 20 minutes early; seating is not guaranteed.",
-        "leadership": "Replaces the 11:30 AM recommendation in this track, including transfer time. Official guidance: arrive about 20 minutes early; seating is not guaranteed."
-      }
+      "recommended": false,
+      "note": "Replaces the 11:30 AM and 12:30 PM recommendations on this day, including transfer time. Official guidance: arrive about 20 minutes early; seating is not guaranteed."
     },
     {
       "id": "1785179690271001xi4A",
@@ -131,13 +100,8 @@
       "format": "Breakout Session",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1785179690271001xi4A",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "team"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "team": " Tight transfer: 20 minutes, including an estimated 15-minute walk and five-minute early arrival. Allow extra time for queues."
-      }
+      "recommended": true,
+      "note": "Tight transfer: 20 minutes, including an estimated 15-minute walk and 5-minute early arrival. Allow extra time for queues."
     },
     {
       "id": "1785161525956001tBix",
@@ -153,13 +117,8 @@
       "format": "Main Stage",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1785161525956001tBix",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "leadership"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "leadership": ""
-      }
+      "recommended": false,
+      "note": "Replaces the 12:30 PM recommendation on this day, including transfer time."
     },
     {
       "id": "1785346960888001Jg2j",
@@ -175,37 +134,8 @@
       "format": "Product Demo",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1785346960888001Jg2j",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "leadership",
-        "team"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "team": "",
-        "leadership": ""
-      }
-    },
-    {
-      "id": "1776695285557001LaZG",
-      "day": "wed",
-      "date": "Wed, Oct 28",
-      "time": "2:30–3:10 PM",
-      "start": "2026-10-28T14:30:00-07:00",
-      "end": "2026-10-28T15:10:00-07:00",
-      "title": "Beyond \"hours saved\": How AMD and ING measure AI at enterprise scale",
-      "category": "AI investment value",
-      "reason": "Compare AMD and ING's methods for evaluating enterprise AI investment. Use the banking perspective to shape Vanguard's measurement discussion around delivery outcomes, quality, and investment choices rather than hours-saved claims alone.",
-      "room": "Cowell Theater @ Gateway Pavilion",
-      "format": "Breakout Session",
-      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1776695285557001LaZG",
-      "earlyArrival": 5,
-      "recommendedFor": [
-        "leadership"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "leadership": ""
-      }
+      "recommended": true,
+      "note": ""
     },
     {
       "id": "1777658986177001QNCH",
@@ -221,13 +151,25 @@
       "format": "Main Stage",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777658986177001QNCH",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "team"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "team": ""
-      }
+      "recommended": true,
+      "note": ""
+    },
+    {
+      "id": "1776695285557001LaZG",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "2:30–3:10 PM",
+      "start": "2026-10-28T14:30:00-07:00",
+      "end": "2026-10-28T15:10:00-07:00",
+      "title": "Beyond \"hours saved\": How AMD and ING measure AI at enterprise scale",
+      "category": "AI investment value",
+      "reason": "Compare AMD and ING's methods for evaluating enterprise AI investment. Use the banking perspective to shape Vanguard's measurement discussion around delivery outcomes, quality, and investment choices rather than hours-saved claims alone.",
+      "room": "Cowell Theater @ Gateway Pavilion",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1776695285557001LaZG",
+      "earlyArrival": 5,
+      "recommended": false,
+      "note": "Replaces the 2:30 PM recommendation on this day, including transfer time. Tight transfer into the 3:30 PM session: allow 20 minutes including travel and early arrival."
     },
     {
       "id": "1785266292155001nU90",
@@ -243,15 +185,8 @@
       "format": "Breakout Session",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1785266292155001nU90",
       "earlyArrival": 5,
-      "recommendedFor": [],
-      "alternativeFor": [
-        "leadership",
-        "team"
-      ],
-      "routeNotes": {
-        "team": "Replaces the 2:30 PM recommendation in this track, including transfer time.",
-        "leadership": "Replaces the 2:30 PM recommendation in this track, including transfer time."
-      }
+      "recommended": false,
+      "note": "Replaces the 2:30 PM recommendation on this day, including transfer time. Tight transfer into the 3:30 PM session: allow 20 minutes including travel and early arrival."
     },
     {
       "id": "1777692373101001qvdo",
@@ -267,16 +202,8 @@
       "format": "Breakout Session",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777692373101001qvdo",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "team"
-      ],
-      "alternativeFor": [
-        "leadership"
-      ],
-      "routeNotes": {
-        "team": "",
-        "leadership": "Replaces the 3:30 PM recommendation in this track, including transfer time."
-      }
+      "recommended": true,
+      "note": ""
     },
     {
       "id": "1785529367672001eimf",
@@ -292,35 +219,8 @@
       "format": "Product Demo",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1785529367672001eimf",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "leadership"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "leadership": " Tight transfer: 20 minutes, including an estimated 15-minute walk and five-minute early arrival. Allow extra time for queues."
-      }
-    },
-    {
-      "id": "1776181763137001TBjr",
-      "day": "wed",
-      "date": "Wed, Oct 28",
-      "time": "4:30–5:10 PM",
-      "start": "2026-10-28T16:30:00-07:00",
-      "end": "2026-10-28T17:10:00-07:00",
-      "title": "The human side of AI: How building community drove 94% Copilot adoption",
-      "category": "Change leadership",
-      "reason": "Learn from another financial-services organization's community-led Copilot adoption. Explore how leadership sponsorship, storytelling, and shared practice can sustain behavior change without treating another firm's adoption rate as a target or guarantee.",
-      "room": "BATS Theatre @ Fort Mason Building B, 3rd Floor",
-      "format": "Breakout Session",
-      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1776181763137001TBjr",
-      "earlyArrival": 5,
-      "recommendedFor": [
-        "leadership"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "leadership": ""
-      }
+      "recommended": false,
+      "note": "Replaces the 3:30 PM recommendation on this day, including transfer time."
     },
     {
       "id": "1777507244576001uh1q",
@@ -336,59 +236,25 @@
       "format": "Breakout Session",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777507244576001uh1q",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "team"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "team": " Tight transfer: 20 minutes, including an estimated 15-minute walk and five-minute early arrival. Allow extra time for queues."
-      }
+      "recommended": true,
+      "note": "Tight transfer: 20 minutes, including an estimated 15-minute walk and 5-minute early arrival. Allow extra time for queues."
     },
     {
-      "id": "1776118973412001agMC",
-      "day": "thu",
-      "date": "Thu, Oct 29",
-      "time": "9:00–9:40 AM",
-      "start": "2026-10-29T09:00:00-07:00",
-      "end": "2026-10-29T09:40:00-07:00",
-      "title": "Visa's Zero-Secrets Initiative: no hardcoded secrets, no exceptions",
-      "category": "Financial services",
-      "reason": "Consider Visa's approach to policy ownership, credential-risk reduction, and prevention at enterprise scale. This is a useful peer alternative for Vanguard leaders prioritizing security governance over the model-lab outlook.",
+      "id": "1776181763137001TBjr",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "4:30–5:10 PM",
+      "start": "2026-10-28T16:30:00-07:00",
+      "end": "2026-10-28T17:10:00-07:00",
+      "title": "The human side of AI: How building community drove 94% Copilot adoption",
+      "category": "Change leadership",
+      "reason": "Learn from another financial-services organization's community-led Copilot adoption. Explore how leadership sponsorship, storytelling, and shared practice can sustain behavior change without treating another firm's adoption rate as a target or guarantee.",
       "room": "BATS Theatre @ Fort Mason Building B, 3rd Floor",
       "format": "Breakout Session",
-      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1776118973412001agMC",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1776181763137001TBjr",
       "earlyArrival": 5,
-      "recommendedFor": [],
-      "alternativeFor": [
-        "leadership",
-        "team"
-      ],
-      "routeNotes": {
-        "team": "Replaces the 9:00 AM recommendation in this track, including transfer time.",
-        "leadership": "Replaces the 9:00 AM recommendation in this track, including transfer time."
-      }
-    },
-    {
-      "id": "1776470103196001fJPe",
-      "day": "thu",
-      "date": "Thu, Oct 29",
-      "time": "9:00–9:30 AM",
-      "start": "2026-10-29T09:00:00-07:00",
-      "end": "2026-10-29T09:30:00-07:00",
-      "title": "The view from the labs: What's next for AI-assisted development",
-      "category": "Strategic outlook",
-      "reason": "Hear model-lab leaders' outlook on AI-assisted development and pressure-test long-term investment assumptions. Consider implications for Vanguard's skills strategy, operating model, and roadmap conversations rather than assuming forecasts are commitments.",
-      "room": "Main Stage @ Festival Pavilion",
-      "format": "Main Stage",
-      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1776470103196001fJPe",
-      "earlyArrival": 5,
-      "recommendedFor": [
-        "leadership"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "leadership": ""
-      }
+      "recommended": false,
+      "note": "Replaces the 4:30 PM recommendation on this day, including transfer time. Tight transfer into the 4:30 PM session: allow 20 minutes including travel and early arrival."
     },
     {
       "id": "1787615869752001IyaJ",
@@ -404,13 +270,42 @@
       "format": "Breakout Session",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1787615869752001IyaJ",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "team"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "team": ""
-      }
+      "recommended": true,
+      "note": ""
+    },
+    {
+      "id": "1776118973412001agMC",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "9:00–9:40 AM",
+      "start": "2026-10-29T09:00:00-07:00",
+      "end": "2026-10-29T09:40:00-07:00",
+      "title": "Visa's Zero-Secrets Initiative: no hardcoded secrets, no exceptions",
+      "category": "Financial services",
+      "reason": "Consider Visa's approach to policy ownership, credential-risk reduction, and prevention at enterprise scale. This is a useful peer alternative for Vanguard leaders prioritizing security governance over the model-lab outlook.",
+      "room": "BATS Theatre @ Fort Mason Building B, 3rd Floor",
+      "format": "Breakout Session",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1776118973412001agMC",
+      "earlyArrival": 5,
+      "recommended": false,
+      "note": "Replaces the 9:00 AM recommendation on this day, including transfer time."
+    },
+    {
+      "id": "1776470103196001fJPe",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "9:00–9:30 AM",
+      "start": "2026-10-29T09:00:00-07:00",
+      "end": "2026-10-29T09:30:00-07:00",
+      "title": "The view from the labs: What's next for AI-assisted development",
+      "category": "Strategic outlook",
+      "reason": "Hear model-lab leaders' outlook on AI-assisted development and pressure-test long-term investment assumptions. Consider implications for Vanguard's skills strategy, operating model, and roadmap conversations rather than assuming forecasts are commitments.",
+      "room": "Main Stage @ Festival Pavilion",
+      "format": "Main Stage",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1776470103196001fJPe",
+      "earlyArrival": 5,
+      "recommended": false,
+      "note": "Replaces the 9:00 AM recommendation on this day, including transfer time."
     },
     {
       "id": "1781738213966001Cmya",
@@ -426,13 +321,8 @@
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1781738213966001Cmya",
       "earlyArrival": 5,
       "reason": "Examine the tradeoffs of moving human review upstream when agents produce code. For Vanguard, focus on preserving accountability, engineering learning, and evidence of control effectiveness; treat the speakers' approach as a discussion, not a recommendation to remove required reviews.",
-      "recommendedFor": [
-        "leadership"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "leadership": ""
-      }
+      "recommended": false,
+      "note": "Replaces the 10:20 AM recommendation on this day, including transfer time. Tight transfer into the 10:00 AM session: allow 20 minutes including travel and early arrival."
     },
     {
       "id": "1777489102123001ThSM",
@@ -448,13 +338,8 @@
       "format": "Ship & Tell",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777489102123001ThSM",
       "earlyArrival": 20,
-      "recommendedFor": [
-        "team"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "team": "Official guidance: arrive about 20 minutes early; seating is not guaranteed."
-      }
+      "recommended": true,
+      "note": "Official guidance: arrive about 20 minutes early; seating is not guaranteed."
     },
     {
       "id": "1778094834694001VKKT",
@@ -470,15 +355,8 @@
       "format": "Breakout Session",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1778094834694001VKKT",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "leadership",
-        "team"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "team": "",
-        "leadership": ""
-      }
+      "recommended": true,
+      "note": ""
     },
     {
       "id": "1777694271181001nBNl",
@@ -494,13 +372,8 @@
       "format": "Breakout Session",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777694271181001nBNl",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "team"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "team": " Tight transfer: 20 minutes, including an estimated 15-minute walk and five-minute early arrival. Allow extra time for queues."
-      }
+      "recommended": true,
+      "note": "Tight transfer: 20 minutes, including an estimated 15-minute walk and 5-minute early arrival. Allow extra time for queues."
     },
     {
       "id": "1777643866054001BE2E",
@@ -516,13 +389,8 @@
       "format": "Main Stage",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777643866054001BE2E",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "leadership"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "leadership": ""
-      }
+      "recommended": false,
+      "note": "Replaces the 12:00 PM and 1:00 PM recommendations on this day, including transfer time."
     },
     {
       "id": "1777576880526001AwEa",
@@ -538,15 +406,8 @@
       "format": "Ship & Tell",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777576880526001AwEa",
       "earlyArrival": 20,
-      "recommendedFor": [],
-      "alternativeFor": [
-        "leadership",
-        "team"
-      ],
-      "routeNotes": {
-        "team": "Replaces the 12:00 PM and 1:00 PM recommendations in this track, including transfer time. Official guidance: arrive about 20 minutes early; seating is not guaranteed.",
-        "leadership": "Replaces the 12:15 PM and 1:05 PM recommendations in this track, including transfer time. Official guidance: arrive about 20 minutes early; seating is not guaranteed."
-      }
+      "recommended": false,
+      "note": "Replaces the 12:00 PM and 1:00 PM recommendations on this day, including transfer time. Official guidance: arrive about 20 minutes early; seating is not guaranteed."
     },
     {
       "id": "1778275240014001huB4",
@@ -562,13 +423,8 @@
       "format": "Breakout Session",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1778275240014001huB4",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "team"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "team": " Tight transfer: 20 minutes, including an estimated 15-minute walk and five-minute early arrival. Allow extra time for queues."
-      }
+      "recommended": true,
+      "note": "Tight transfer: 20 minutes, including an estimated 15-minute walk and 5-minute early arrival. Allow extra time for queues."
     },
     {
       "id": "1777674201455001Cr9A",
@@ -584,13 +440,8 @@
       "format": "Main Stage",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1777674201455001Cr9A",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "leadership"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "leadership": ""
-      }
+      "recommended": false,
+      "note": "Replaces the 1:00 PM recommendation on this day, including transfer time."
     },
     {
       "id": "1788965213758001y1se",
@@ -601,20 +452,13 @@
       "end": "2026-10-29T15:00:00-07:00",
       "title": "Closing Keynote",
       "category": "Strategic synthesis",
-      "reason": "Bring both Vanguard tracks back together and compare technical and leadership takeaways on responsible agents, engineering outcomes, and platform strategy. The detailed keynote program is still developing; no specific announcement is assumed.",
+      "reason": "Reconvene and compare technical and leadership takeaways on responsible agents, engineering outcomes, and platform strategy for Vanguard. The detailed keynote program is still developing; no specific announcement is assumed.",
       "room": "Main Stage @ Festival Pavilion",
       "format": "Keynote",
       "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1788965213758001y1se",
       "earlyArrival": 5,
-      "recommendedFor": [
-        "leadership",
-        "team"
-      ],
-      "alternativeFor": [],
-      "routeNotes": {
-        "team": " Tight transfer: 20 minutes, including an estimated 15-minute walk and five-minute early arrival. Allow extra time for queues.",
-        "leadership": ""
-      }
+      "recommended": true,
+      "note": "Tight transfer: 20 minutes, including an estimated 15-minute walk and 5-minute early arrival. Allow extra time for queues."
     }
   ],
   "venues": [
@@ -694,8 +538,26 @@
       "locationNote": "Published venue; register and confirm attendance with Insight."
     },
     {
-      "id": "pier",
+      "id": "greens",
       "number": 6,
+      "sourceIds": [
+        "merge-tables",
+        "clubhouse-lounge",
+        "global-user-group",
+        "industry-breakfast"
+      ],
+      "name": "The Clubhouse at Greens",
+      "address": "Greens Restaurant, 2 Marina Blvd, Fort Mason, San Francisco",
+      "position": [
+        37.806886,
+        -122.4322073
+      ],
+      "provisional": true,
+      "locationNote": "Restaurant reference for the proposed Clubhouse programs on both days. Program details, access, and reservations remain unconfirmed."
+    },
+    {
+      "id": "pier",
+      "number": 7,
       "sourceIds": [
         "sonar"
       ],
@@ -710,7 +572,7 @@
     },
     {
       "id": "for-the-record",
-      "number": 7,
+      "number": 8,
       "sourceIds": [
         "neubird"
       ],
@@ -725,7 +587,7 @@
     },
     {
       "id": "barrio",
-      "number": 8,
+      "number": 9,
       "sourceIds": [
         "rubrik"
       ],
@@ -740,7 +602,7 @@
     },
     {
       "id": "flores",
-      "number": 9,
+      "number": 10,
       "sourceIds": [
         "bitrise"
       ],
@@ -755,7 +617,7 @@
     },
     {
       "id": "subpar",
-      "number": 10,
+      "number": 11,
       "sourceIds": [
         "mintlify-entire"
       ],
@@ -770,7 +632,7 @@
     },
     {
       "id": "civic-kitchen",
-      "number": 11,
+      "number": 12,
       "sourceIds": [
         "gitprotect"
       ],
@@ -785,7 +647,7 @@
     },
     {
       "id": "market-street",
-      "number": 12,
+      "number": 13,
       "sourceIds": [
         "figma"
       ],
@@ -797,6 +659,36 @@
       ],
       "provisional": true,
       "locationNote": "Building reference only, not verification of Figma's headquarters or event venue. Thursday Oct 29 is inferred from a conflicting Sep 29 source date; confirm all details."
+    },
+    {
+      "id": "fort-mason",
+      "number": 14,
+      "sourceIds": [
+        "women-in-tech"
+      ],
+      "name": "Fort Mason campus - reception reference",
+      "address": "Fort Mason Center, San Francisco",
+      "position": [
+        37.8063329,
+        -122.432056
+      ],
+      "provisional": true,
+      "locationNote": "Approximate campus reference, not the exact Outdoor Theater @ Gateway Plaza entrance. Use the official on-site map and signage for the published reception location."
+    },
+    {
+      "id": "saint-joseph",
+      "number": 15,
+      "sourceIds": [
+        "customer-welcome"
+      ],
+      "name": "Saint Joseph's Arts Society",
+      "address": "1401 Howard St, San Francisco",
+      "position": [
+        37.7736152,
+        -122.4142982
+      ],
+      "provisional": true,
+      "locationNote": "Venue reference for the proposed Tuesday welcome reception, not confirmation of the event. Date, time, invitation, and access must be confirmed with the organizer."
     },
     {
       "id": "jellyfish-tbd",
@@ -821,9 +713,109 @@
       "position": null,
       "provisional": true,
       "locationNote": "Redwood Empire Whiskey is named, but the event venue is not established. The brand's Vallejo visitor location is not assumed to be this event's location."
+    },
+    {
+      "id": "executive-lounge-tbd",
+      "number": null,
+      "sourceIds": [
+        "executive-partner-lounge"
+      ],
+      "name": "Executive and Partner Lounge - location unconfirmed",
+      "address": null,
+      "position": null,
+      "provisional": true,
+      "locationNote": "No confirmed location on either day. Special credentials are required; this is not general-pass access."
+    },
+    {
+      "id": "executive-briefing-tbd",
+      "number": null,
+      "sourceIds": [
+        "executive-briefing"
+      ],
+      "name": "Executive Briefing - location to be confirmed",
+      "address": null,
+      "position": null,
+      "provisional": true,
+      "locationNote": "By arrangement; no date, location, or appointment confirmed. Included in the Tuesday tab for planning only, not scheduled for Tuesday."
+    },
+    {
+      "id": "technical-briefing-tbd",
+      "number": null,
+      "sourceIds": [
+        "technical-briefing"
+      ],
+      "name": "Technical Briefing - location to be confirmed",
+      "address": null,
+      "position": null,
+      "provisional": true,
+      "locationNote": "By arrangement; no date, location, or appointment confirmed. Included in the Tuesday tab for planning only, not scheduled for Tuesday."
     }
   ],
   "socials": [
+    {
+      "id": "social-customer-welcome",
+      "sourceId": "customer-welcome",
+      "day": "tue",
+      "date": "Tue, Oct 27",
+      "time": "6:30 PM - 10:30 PM",
+      "plannedStart": "2026-10-27T18:30:00-07:00",
+      "plannedEnd": "2026-10-27T22:30:00-07:00",
+      "title": "Customer Welcome Reception: Commit Together",
+      "category": "Pre-conference reception",
+      "format": "Invite-only reception",
+      "reason": "Meet enterprise engineering peers before the conference and exchange ideas on responsible AI adoption, platform governance, and measurable engineering outcomes.",
+      "room": "Saint Joseph's Arts Society",
+      "note": "Unconfirmed. Invite/nomination and opt-in required; 50% or 100% comp pass. Capacity 500; confirm access.",
+      "url": null
+    },
+    {
+      "id": "social-merge-tables-wed-1",
+      "sourceId": "merge-tables",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "11:00 AM - 11:45 AM",
+      "plannedStart": "2026-10-28T11:00:00-07:00",
+      "plannedEnd": "2026-10-28T11:45:00-07:00",
+      "title": "Merge Tables at The Clubhouse",
+      "category": "Networking lunch",
+      "format": "Lunch | request one seating",
+      "reason": "Compare practical agent enablement, repository controls, and engineering-outcome measures with your GitHub team and enterprise peers.",
+      "room": "The Clubhouse at Greens",
+      "note": "Unconfirmed. 100% comp pass; reservation required. 55 seats per seating; max five per group, including hosts. Overlaps the 10:30 AM and 11:30 AM recommended sessions; plan separately from the session route.",
+      "url": null
+    },
+    {
+      "id": "social-merge-tables-wed-2",
+      "sourceId": "merge-tables",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "12:15 PM - 1:00 PM",
+      "plannedStart": "2026-10-28T12:15:00-07:00",
+      "plannedEnd": "2026-10-28T13:00:00-07:00",
+      "title": "Merge Tables at The Clubhouse",
+      "category": "Networking lunch",
+      "format": "Lunch | request one seating",
+      "reason": "Compare practical agent enablement, repository controls, and engineering-outcome measures with your GitHub team and enterprise peers.",
+      "room": "The Clubhouse at Greens",
+      "note": "Unconfirmed. 100% comp pass; reservation required. 55 seats per seating; max five per group, including hosts. Overlaps the 12:30 PM recommended session; plan separately from the session route.",
+      "url": null
+    },
+    {
+      "id": "social-women-in-tech",
+      "sourceId": "women-in-tech",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "4:00 PM - 5:00 PM",
+      "plannedStart": "2026-10-28T16:00:00-07:00",
+      "plannedEnd": "2026-10-28T17:00:00-07:00",
+      "title": "Women in Tech Networking Reception",
+      "category": "Official networking reception",
+      "format": "Special Event",
+      "reason": "Connect with the customer, partner, and GitHub communities through peer networking and mentoring conversations.",
+      "room": "Outdoor Theater @ Gateway Plaza",
+      "note": "Published in the official catalog. Confirm participation requirements and availability with the organizer; no invitation or place is reserved. Overlaps the 3:30 PM and 4:30 PM recommended sessions; plan separately from the session route.",
+      "url": "https://reg.githubuniverse.com/flow/github/universe26/attendee-portal/page/sessioncatalog/session/1788301296948001Lw4H"
+    },
     {
       "id": "social-faros",
       "sourceId": "faros",
@@ -837,7 +829,7 @@
       "format": "Faros AI | Sponsor-hosted",
       "reason": "Compare engineering-outcome measurement and AI investment value with technology peers. After the 5:10 PM session finish, allow travel and plan to join around 5:30 PM.",
       "room": "Radhaus | Fort Mason campus",
-      "note": "Date/venue published; 5-7 PM unconfirmed. Limited capacity; request a spot and await host confirmation. Overlaps the 4:30 PM team recommendation; plan separately from the session route. Overlaps the 4:30 PM leadership recommendation; plan separately from the session route.",
+      "note": "Date/venue published; 5-7 PM unconfirmed. Limited capacity; request a spot and await host confirmation. Overlaps the 4:30 PM recommended session; plan separately from the session route.",
       "url": "https://pages.faros.ai/connect-with-faros-at-github-universe"
     },
     {
@@ -853,7 +845,7 @@
       "format": "Sonar | Sponsor-hosted",
       "reason": "Compare code quality, repository findings, and developer-led security practices in an optional peer setting. Confirm the cruise date, boarding location, and departure requirements before replacing afternoon sessions.",
       "room": "Pier 43 1/2 (unconfirmed)",
-      "note": "Unconfirmed: Oct 28 conflicts with a June 30 source date. Hours, venue, access, and RSVP need confirmation. Overlaps the 4:30 PM team recommendation; plan separately from the session route. Overlaps the 4:30 PM leadership recommendation; plan separately from the session route.",
+      "note": "Unconfirmed: Oct 28 conflicts with a June 30 source date. Hours, venue, access, and RSVP need confirmation. Overlaps the 4:30 PM recommended session; plan separately from the session route.",
       "url": null
     },
     {
@@ -1033,6 +1025,102 @@
       "url": null
     },
     {
+      "id": "social-executive-partner-lounge-wed",
+      "sourceId": "executive-partner-lounge",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "Hours to be confirmed",
+      "plannedStart": null,
+      "plannedEnd": null,
+      "title": "Executive and Partner Lounge",
+      "category": "Networking add-on",
+      "format": "Executive-track / briefing access",
+      "reason": "Continue eligible leadership conversations on platform resilience, AI investment, and accountable adoption. Access restrictions apply; this is not a separate attendee track.",
+      "room": "Location to be confirmed",
+      "note": "Unconfirmed. Executive-track or briefing credentials required; confirm eligibility and hours. Not general-pass access.",
+      "url": null
+    },
+    {
+      "id": "social-global-user-group-wed",
+      "sourceId": "global-user-group",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "Hours to be confirmed",
+      "plannedStart": null,
+      "plannedEnd": null,
+      "title": "Global User Group at The Clubhouse",
+      "category": "Networking add-on",
+      "format": "Invited-customer gathering",
+      "reason": "Exchange lessons on shared-platform operations, responsible agent adoption, and developer enablement with other enterprise engineering teams.",
+      "room": "The Clubhouse at Greens",
+      "note": "Unconfirmed. Nomination required; hours, agenda, capacity, and eligibility need organizer confirmation.",
+      "url": null
+    },
+    {
+      "id": "social-clubhouse-lounge-wed",
+      "sourceId": "clubhouse-lounge",
+      "day": "wed",
+      "date": "Wed, Oct 28",
+      "time": "Hours to be confirmed",
+      "plannedStart": null,
+      "plannedEnd": null,
+      "title": "The Clubhouse Lounge",
+      "category": "Networking add-on",
+      "format": "Drop-in lounge",
+      "reason": "Discuss session takeaways on reusable context and secure delivery, or refine technical and governance questions for Vanguard's follow-up conversations.",
+      "room": "Greens Restaurant | Fort Mason campus",
+      "note": "Unconfirmed hours/access; no reserved seats. Closed during Merge Tables and User Groups. Confirm customer eligibility.",
+      "url": null
+    },
+    {
+      "id": "social-industry-breakfast",
+      "sourceId": "industry-breakfast",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "7:30 AM - 8:30 AM",
+      "plannedStart": "2026-10-29T07:30:00-07:00",
+      "plannedEnd": "2026-10-29T08:30:00-07:00",
+      "title": "Industry Breakfast at The Clubhouse",
+      "category": "Industry breakfast",
+      "format": "Invite-only breakfast",
+      "reason": "Compare financial-services perspectives on secure AI adoption, engineering productivity, and responsible platform change over an optional breakfast.",
+      "room": "The Clubhouse at Greens",
+      "note": "Unconfirmed. Enterprise/Mid-Market 100% comp pass; nomination and registration required. Capacity 120; confirm access.",
+      "url": null
+    },
+    {
+      "id": "social-merge-tables-thu-1",
+      "sourceId": "merge-tables",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "11:30 AM - 12:15 PM",
+      "plannedStart": "2026-10-29T11:30:00-07:00",
+      "plannedEnd": "2026-10-29T12:15:00-07:00",
+      "title": "Merge Tables at The Clubhouse",
+      "category": "Networking lunch",
+      "format": "Lunch | request one seating",
+      "reason": "Compare practical agent enablement, repository controls, and engineering-outcome measures with your GitHub team and enterprise peers.",
+      "room": "The Clubhouse at Greens",
+      "note": "Unconfirmed. 100% comp pass; reservation required. 55 seats per seating; max five per group, including hosts. Overlaps the 11:00 AM and 12:00 PM recommended sessions; plan separately from the session route.",
+      "url": null
+    },
+    {
+      "id": "social-merge-tables-thu-2",
+      "sourceId": "merge-tables",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "12:45 PM - 1:30 PM",
+      "plannedStart": "2026-10-29T12:45:00-07:00",
+      "plannedEnd": "2026-10-29T13:30:00-07:00",
+      "title": "Merge Tables at The Clubhouse",
+      "category": "Networking lunch",
+      "format": "Lunch | request one seating",
+      "reason": "Compare practical agent enablement, repository controls, and engineering-outcome measures with your GitHub team and enterprise peers.",
+      "room": "The Clubhouse at Greens",
+      "note": "Unconfirmed. 100% comp pass; reservation required. 55 seats per seating; max five per group, including hosts. Overlaps the 1:00 PM recommended session; plan separately from the session route.",
+      "url": null
+    },
+    {
       "id": "social-figma",
       "sourceId": "figma",
       "day": "thu",
@@ -1047,6 +1135,88 @@
       "room": "Figma HQ | 760 Market St (unconfirmed)",
       "note": "Unconfirmed: Oct 29 is inferred from a Sep 29 source date. Confirm date, hours, venue, and RSVP.",
       "url": null
+    },
+    {
+      "id": "social-executive-partner-lounge-thu",
+      "sourceId": "executive-partner-lounge",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "Hours to be confirmed",
+      "plannedStart": null,
+      "plannedEnd": null,
+      "title": "Executive and Partner Lounge",
+      "category": "Networking add-on",
+      "format": "Executive-track / briefing access",
+      "reason": "Continue eligible leadership conversations on platform resilience, AI investment, and accountable adoption. Access restrictions apply; this is not a separate attendee track.",
+      "room": "Location to be confirmed",
+      "note": "Unconfirmed. Executive-track or briefing credentials required; confirm eligibility and hours. Not general-pass access.",
+      "url": null
+    },
+    {
+      "id": "social-global-user-group-thu",
+      "sourceId": "global-user-group",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "Hours to be confirmed",
+      "plannedStart": null,
+      "plannedEnd": null,
+      "title": "Global User Group at The Clubhouse",
+      "category": "Networking add-on",
+      "format": "Invited-customer gathering",
+      "reason": "Exchange lessons on shared-platform operations, responsible agent adoption, and developer enablement with other enterprise engineering teams.",
+      "room": "The Clubhouse at Greens",
+      "note": "Unconfirmed. Nomination required; hours, agenda, capacity, and eligibility need organizer confirmation.",
+      "url": null
+    },
+    {
+      "id": "social-clubhouse-lounge-thu",
+      "sourceId": "clubhouse-lounge",
+      "day": "thu",
+      "date": "Thu, Oct 29",
+      "time": "Hours to be confirmed",
+      "plannedStart": null,
+      "plannedEnd": null,
+      "title": "The Clubhouse Lounge",
+      "category": "Networking add-on",
+      "format": "Drop-in lounge",
+      "reason": "Discuss session takeaways on reusable context and secure delivery, or refine technical and governance questions for Vanguard's follow-up conversations.",
+      "room": "Greens Restaurant | Fort Mason campus",
+      "note": "Unconfirmed hours/access; no reserved seats. Closed during Merge Tables and User Groups. Confirm customer eligibility.",
+      "url": null
+    },
+    {
+      "id": "social-executive-briefing",
+      "sourceId": "executive-briefing",
+      "day": "undated",
+      "date": "Date to be confirmed",
+      "time": "By arrangement",
+      "plannedStart": null,
+      "plannedEnd": null,
+      "title": "Executive Briefing",
+      "category": "Briefing add-on",
+      "format": "Executive Briefing (EBC)",
+      "reason": "Request a strategic discussion on responsible agent adoption, platform resilience, engineering outcomes, and roadmap alignment for Vanguard. Executive eligibility and organizer approval apply; no appointment is reserved.",
+      "room": "Location to be confirmed",
+      "note": "To be scheduled. Executive track; organizer approval and eligibility confirmation required. No appointment reserved. Listed under Tuesday for planning convenience only; not confirmed for Tuesday. Request through your account team.",
+      "url": null,
+      "tab": "tue"
+    },
+    {
+      "id": "social-technical-briefing",
+      "sourceId": "technical-briefing",
+      "day": "undated",
+      "date": "Date to be confirmed",
+      "time": "By arrangement",
+      "plannedStart": null,
+      "plannedEnd": null,
+      "title": "Technical Briefing",
+      "category": "Briefing add-on",
+      "format": "Technical Briefing (TBC)",
+      "reason": "Request technical depth on reusable agent skills, MCP authorization, Actions security, runner operations, and regulated platform migration relevant to Vanguard engineering teams.",
+      "room": "Location to be confirmed",
+      "note": "To be scheduled. Technical decision-maker audience; organizer approval required. Date, duration, and eligibility unconfirmed. Listed under Tuesday for planning convenience only; not confirmed for Tuesday. Request through your account team.",
+      "url": null,
+      "tab": "tue"
     }
   ]
 }
